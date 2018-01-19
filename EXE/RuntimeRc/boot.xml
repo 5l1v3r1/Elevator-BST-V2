@@ -1,0 +1,1652 @@
+<?xmlversion = "1.0" encoding = "UTF-8"?>
+<root>
+    <FileType>BST IDE File</FileType>
+    <Version>1.0.0.1</Version>
+    <CreateTime>2012-6-14</CreateTime>
+    <NewFile>
+        <Solution>
+            <Sodimas img=":/Device/rc/Device/sodimas.png">
+                <Resolution>480x272</Resolution>
+                <Video>yes</Video>
+                <OpenGL>no</OpenGL>
+                <Protocol>RS485;OTIS;KONE;CAN;SPI;PARALLEL</Protocol>
+                <Description>BVT-Sodimas(480x272) Multimedia Display.</Description>
+            </Sodimas>
+            <DiSen img=":/Device/rc/Device/tyssenkrupp.png">
+                <Resolution>480x800</Resolution>
+                <Video>yes</Video>
+                <OpenGL>no</OpenGL>
+                <Protocol>RS485;OTIS;KONE;CAN;SPI;PARALLEL</Protocol>
+                <Description>DiSen(480x800) Multimedia Display.</Description>
+            </DiSen>
+            <BVT121 img=":/Page/rc/Page/reg.png">
+                <Resolution>800x480</Resolution>
+                <Video>yes</Video>
+                <OpenGL>no</OpenGL>
+                <Protocol>RS485;OTIS;KONE;CAN;SPI;PARALLEL</Protocol>
+                <Description>BVT121(800x480) Multimedia Display.It launched in 2008, is the first paragraph SHBST high-end multimedia display solutions, are mainly exported to Asia, Africa and France.</Description>
+            </BVT121>
+            <BVT122 img=":/Page/rc/Page/reg.png">
+                <Resolution>800x600</Resolution>
+                <Video>yes</Video>
+                <OpenGL>no</OpenGL>
+                <Protocol>RS485;OTIS;KONE;CAN;SPI;PARALLEL</Protocol>
+                <Description>BVT122(800x600) Multimedia Display.It launched in 2008, is the first paragraph SHBST high-end multimedia display solutions, are mainly exported to Asia, Africa and France.</Description>
+            </BVT122>
+            <BVT131 img=":/Page/rc/Page/reg.png">
+                <Resolution>1024x768</Resolution>
+                <Video>yes</Video>
+                <OpenGL>no</OpenGL>
+                <Protocol>RS485;OTIS;KONE;CAN;SPI;PARALLEL</Protocol>
+                <Description>BVT131(1024x768) Multimedia Display.It launched in 2011, is the first paragraph SHBST high-end multimedia display solutions, are mainly exported to Asia, Africa and France.</Description>
+            </BVT131>
+            <BVT131-V img=":/Page/rc/Page/reg.png">
+                <Resolution>768x1024</Resolution>
+                <Video>yes</Video>
+                <OpenGL>no</OpenGL>
+                <Protocol>RS485;OTIS;KONE;CAN;SPI;PARALLEL</Protocol>
+                <Description>BVT131(768x1024) Multimedia Display.It launched in 2011, is the first paragraph SHBST high-end multimedia display solutions, are mainly exported to Asia, Africa and France.</Description>
+            </BVT131-V>
+            <BVT151 img=":/Page/rc/Page/reg.png">
+                <Resolution>1024x768</Resolution>
+                <Video>yes</Video>
+                <OpenGL>no</OpenGL>
+                <Protocol>RS485;OTIS;KONE;CAN;SPI;PARALLEL</Protocol>
+                <Description>BVT151(1024x768) Multimedia Display.It launched in 2011, is the first paragraph SHBST high-end multimedia display solutions, are mainly exported to Asia, Africa and France.</Description>
+            </BVT151>
+            <YUNGTAY img=":/Device/rc/Device/yungtay.png">
+                <Resolution>800x1280</Resolution>
+                <Video>yes</Video>
+                <OpenGL>no</OpenGL>
+                <Protocol>RS485;OTIS;KONE;CAN;SPI;PARALLEL</Protocol>
+                <Description>YUNGTAY(800x1280) Digital Keyboard Display</Description>
+            </YUNGTAY>
+            <BVT181 img=":/Page/rc/Page/reg.png">
+                <Resolution>1360x768</Resolution>
+                <Video>yes</Video>
+                <OpenGL>no</OpenGL>
+                <Protocol>RS485;OTIS;KONE;CAN;SPI;PARALLEL</Protocol>
+                <Description>BVT181(1360x768) Multimedia Display</Description>
+            </BVT181>
+            <BVT181-V img=":/Page/rc/Page/reg.png">
+                <Resolution>768x1360</Resolution>
+                <Video>yes</Video>
+                <OpenGL>no</OpenGL>
+                <Protocol>RS485;OTIS;KONE;CAN;SPI;PARALLEL</Protocol>
+                <Description>BVT181(768x1360) Multimedia Display</Description>
+            </BVT181-V>
+            <BVT191 img=":/Page/rc/Page/reg.png">
+                <Resolution>1920x1080</Resolution>
+                <Video>yes</Video>
+                <OpenGL>no</OpenGL>
+                <Protocol>RS485;OTIS;KONE;CAN;SPI;PARALLEL</Protocol>
+                <Description>BVT191(1920x1080) Multimedia Display</Description>
+            </BVT191>
+            <BVT221 img=":/Page/rc/Page/reg.png">
+                <Resolution>1920x1080</Resolution>
+                <Video>yes</Video>
+                <OpenGL>no</OpenGL>
+                <Protocol>RS485;OTIS;KONE;CAN;SPI;PARALLEL</Protocol>
+                <Description>BVT221(1920x1080) Multimedia Display</Description>
+            </BVT221>
+            <BVT221-V img=":/Page/rc/Page/reg.png">
+                <Resolution>1080x1920</Resolution>
+                <Video>yes</Video>
+                <OpenGL>no</OpenGL>
+                <Protocol>RS485;OTIS;KONE;CAN;SPI;PARALLEL</Protocol>
+                <Description>BVT221-V(1080x1920) Multimedia Display</Description>
+            </BVT221-V>
+            <BVT421 img=":/Page/rc/Page/reg.png">
+                <Resolution>480x1920</Resolution>
+                <Video>yes</Video>
+                <OpenGL>no</OpenGL>
+                <Protocol>RS485;OTIS;KONE;CAN;SPI;PARALLEL</Protocol>
+                <Description>BVT421(480x1920) Multimedia Display</Description>
+            </BVT421>
+        </Solution>
+        <File>
+            <ui img=":/Page/rc/Page/ui.png">
+                <Suffix>.ui</Suffix>
+                <Description>It used to edit the UI file.</Description>
+            </ui>
+            <mdp img=":/Page/rc/Page/mdp.png">
+                <Suffix>.mdp</Suffix>
+                <Description>It used to edit the mdp file.</Description>
+            </mdp>
+            <map img=":/Page/rc/Page/map.png">
+                <Suffix>.map</Suffix>
+                <Description>It used to edit the map file.</Description>
+            </map>
+        </File>
+    </NewFile>
+    <Componet>
+        <Desktop img=":/Componet/rc/Componet/desktop.png">
+            <Common>
+                <Invalid/>
+                <Image>
+                    <RC0 types="svg;png;jpg;bmp"/>
+                    <RC1 types="svg;png;jpg;bmp"/>
+                    <RC2 types="svg;png;jpg;bmp"/>
+                    <RC3 types="svg;png;jpg;bmp"/>
+                    <RC4 types="svg;png;jpg;bmp"/>
+                </Image>
+            </Common>
+            <Change>
+                <Invalid/>
+                <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                    <Invalid types="*"/>
+                </SlipCycle>
+                <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                    <Invalid types="*"/>
+                </Roll>
+                <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                    <Invalid types="*"/>
+                </Transparent>
+            </Change>
+        </Desktop>
+        <SubUI>
+            <SetBar img=":/Menu/rc/Menu/setbar.png">
+                <Common>
+                    <Invalid/>
+                    <Item Parameter="Pattern:HOLLOW/MENU">
+                        <RC100 types="svg;png;jpg;bmp" nickname="Background"/>
+                        <RC0 types="svg;png;jpg;bmp" nickname="PERIPHERAL"/>
+                        <RC1 types="svg;png;jpg;bmp" nickname="APPLICATION"/>
+                        <RC2 types="svg;png;jpg;bmp" nickname="MONITOR"/>
+                        <RC3 types="svg;png;jpg;bmp" nickname="LOGVIEWER"/>
+                    </Item>
+                </Common>
+                <Slip>
+                    <Invalid/>
+                    <Twirl Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                        <Invalid types="*"/>
+                    </Twirl>
+                    <Glide Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                        <Invalid types="*"/>
+                    </Glide>
+                </Slip>
+                <Press>
+                    <Invalid/>
+                    <Zoom Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                        <Invalid types="*"/>
+                    </Zoom>
+                    <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                        <Invalid types="*"/>
+                    </Rotate>
+                </Press>
+            </SetBar>
+            <ProgressBar img=":/Menu/rc/Menu/progress.png">
+                <Common>
+                    <Invalid/>
+                    <Image>
+                        <RC100 types="svg;png;jpg;bmp" nickname="Background"/>
+                        <RC0 types="svg;png;jpg;bmp" nickname="Slug"/>
+                    </Image>
+                </Common>
+                <Run>
+                    <Invalid/>
+                    <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V">
+                        <Invalid types="*"/>
+                    </Roll>
+                    <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                        <Invalid types="*"/>
+                    </Wheel>
+                </Run>
+            </ProgressBar>
+            <MessageBar img=":/Menu/rc/Menu/message.png">
+                <Common>
+                    <Invalid/>
+                    <Image>
+                        <RC0 types="svg;png;jpg;bmp" nickname="Info"/>
+                        <RC1 types="svg;png;jpg;bmp" nickname="Warn"/>
+                        <RC2 types="svg;png;jpg;bmp" nickname="Error"/>
+                    </Image>
+                </Common>
+                <Change>
+                    <Invalid/>
+                    <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                        <Invalid types="*"/>
+                    </Transparent>
+                    <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V">
+                        <Invalid types="*"/>
+                    </Roll>
+                </Change>
+            </MessageBar>
+            <Animal img=":/Componet/rc/Componet/animal.png">
+                <Common>
+                    <Invalid/>
+                    <Image>
+                        <RC0 types="svg;png;jpg;bmp" nickname="Birth"/>
+                        <RC1 types="svg;png;jpg;bmp" nickname="Young"/>
+                        <RC2 types="svg;png;jpg;bmp" nickname="Mature"/>
+                        <RC3 types="svg;png;jpg;bmp" nickname="Old"/>
+                        <RC4 types="svg;png;jpg;bmp" nickname="Death"/>
+                        <RC5 types="svg;png;jpg;bmp" nickname="5"/>
+                        <RC6 types="svg;png;jpg;bmp" nickname="6"/>
+                        <RC7 types="svg;png;jpg;bmp" nickname="7"/>
+                        <RC8 types="svg;png;jpg;bmp" nickname="8"/>
+                        <RC9 types="svg;png;jpg;bmp" nickname="9"/>
+                    </Image>
+                </Common>
+                <Change>
+                    <Invalid/>
+                    <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                        <Invalid types="*"/>
+                    </Transparent>
+                    <Zoom Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                        <Invalid types="*"/>
+                    </Zoom>
+                    <Fireworks Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                        <Invalid types="*"/>
+                    </Fireworks>
+                </Change>
+                <Run>
+                    <Invalid/>
+                    <Move Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                        <Invalid types="*"/>
+                    </Move>
+                </Run>
+                <Turn>
+                    <Invalid/>
+                    <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                        <Invalid types="*"/>
+                    </Rotate>
+                </Turn>
+            </Animal>
+            <FuncInfo>
+                <Common>
+                    <Invalid/>
+                    <Image>
+                        <RC0 types="svg;png;jpg;bmp"/>
+                        <RC1 types="svg;png;jpg;bmp"/>
+                        <RC2 types="svg;png;jpg;bmp"/>
+                        <RC3 types="svg;png;jpg;bmp"/>
+                        <RC4 types="svg;png;jpg;bmp"/>
+                    </Image>
+                </Common>
+                <Change>
+                    <Invalid/>
+                    <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                        <Invalid types="*"/>
+                    </SlipCycle>
+                    <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                        <Invalid types="*"/>
+                    </Roll>
+                    <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                        <Invalid types="*"/>
+                    </Transparent>
+                </Change>
+                <Control>
+                    <Floor>
+                        <Common>
+                            <Invalid/>
+                            <Image Parameter="Pattern:Discrete/Integrate">
+                                <RC100 types="svg;png;jpg;bmp" nickname="BackGroundImage"/>
+                                <RC0 types="svg;png;jpg;bmp" nickname="0"/>
+                                <RC1 types="svg;png;jpg;bmp" nickname="1"/>
+                                <RC2 types="svg;png;jpg;bmp" nickname="2"/>
+                                <RC3 types="svg;png;jpg;bmp" nickname="3"/>
+                                <RC4 types="svg;png;jpg;bmp" nickname="4"/>
+                                <RC5 types="svg;png;jpg;bmp" nickname="5"/>
+                                <RC6 types="svg;png;jpg;bmp" nickname="6"/>
+                                <RC7 types="svg;png;jpg;bmp" nickname="7"/>
+                                <RC8 types="svg;png;jpg;bmp" nickname="8"/>
+                                <RC9 types="svg;png;jpg;bmp" nickname="9"/>
+                                <RC10 types="svg;png;jpg;bmp" nickname="A"/>
+                                <RC11 types="svg;png;jpg;bmp" nickname="B"/>
+                                <RC12 types="svg;png;jpg;bmp" nickname="C"/>
+                                <RC13 types="svg;png;jpg;bmp" nickname="D"/>
+                                <RC14 types="svg;png;jpg;bmp" nickname="E"/>
+                                <RC15 types="svg;png;jpg;bmp" nickname="F"/>
+                                <RC16 types="svg;png;jpg;bmp" nickname="G"/>
+                                <RC17 types="svg;png;jpg;bmp" nickname="H"/>
+                                <RC18 types="svg;png;jpg;bmp" nickname="I"/>
+                                <RC19 types="svg;png;jpg;bmp" nickname="J"/>
+                                <RC20 types="svg;png;jpg;bmp" nickname="K"/>
+                                <RC21 types="svg;png;jpg;bmp" nickname="L"/>
+                                <RC22 types="svg;png;jpg;bmp" nickname="M"/>
+                                <RC23 types="svg;png;jpg;bmp" nickname="N"/>
+                                <RC24 types="svg;png;jpg;bmp" nickname="O"/>
+                                <RC25 types="svg;png;jpg;bmp" nickname="P"/>
+                                <RC26 types="svg;png;jpg;bmp" nickname="Q"/>
+                                <RC27 types="svg;png;jpg;bmp" nickname="R"/>
+                                <RC28 types="svg;png;jpg;bmp" nickname="S"/>
+                                <RC29 types="svg;png;jpg;bmp" nickname="T"/>
+                                <RC30 types="svg;png;jpg;bmp" nickname="U"/>
+                                <RC31 types="svg;png;jpg;bmp" nickname="V"/>
+                                <RC32 types="svg;png;jpg;bmp" nickname="W"/>
+                                <RC33 types="svg;png;jpg;bmp" nickname="X"/>
+                                <RC34 types="svg;png;jpg;bmp" nickname="Y"/>
+                                <RC35 types="svg;png;jpg;bmp" nickname="Z"/>
+                                <RC36 types="svg;png;jpg;bmp" nickname="#"/>
+                                <RC37 types="svg;png;jpg;bmp" nickname="-"/>
+                                <RC38 types="svg;png;jpg;bmp" nickname="?"/>
+                                <RC39 types="svg;png;jpg;bmp" nickname="*"/>
+                            </Image>
+                            <Text Parameter="Pattern:Integrate">
+                                <RC100 types="svg;png;jpg;bmp" nickname="BackGroundImage"/>
+                            </Text>
+                        </Common>
+                        <Change>
+                            <Invalid/>
+                            <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Transparent>
+                            <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Roll>
+                            <Flip Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Flip>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Change>
+                        <Run>
+                            <Invalid/>
+                            <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Transparent>
+                        </Run>
+                        <Halt>
+                            <Invalid/>
+                            <Blink Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Blink>
+                            <Zoom Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Zoom>
+                        </Halt>
+                    </Floor>
+                    <Arrow>
+                        <Common>
+                            <Invalid/>
+                            <Image>
+                                <RC100 types="svg;png;jpg;bmp" nickname="BackGroundImage"/>
+                                <RC1 types="svg;bmp;jpg;png" nickname="UP"/>
+                                <RC2 types="svg;bmp;jpg;png" nickname="DOWN"/>
+                                <RC3 types="svg;bmp;jpg;png" nickname="UPDOWN"/>
+                            </Image>
+                        </Common>
+                        <Change>
+                            <Invalid/>
+                            <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Transparent>
+                            <Zoom Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Zoom>
+                            <Flip Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Flip>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Change>
+                        <Run>
+                            <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Roll>
+                            <Flip Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Flip>
+                        </Run>
+                        <Halt>
+                            <Blink Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Blink>
+                        </Halt>
+                    </Arrow>
+                    <Function>
+                        <Common>
+                            <Invalid/>
+                            <Image>
+                                <RC0 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC1 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC2 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC3 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC4 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC5 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC6 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC7 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC8 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC9 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC10 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC11 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC12 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC13 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC14 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC15 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC16 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC17 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC18 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC19 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC20 types="svg;bmp;jpg;png" nickname=""/>
+                            </Image>
+                        </Common>
+                        <Change>
+                            <Invalid/>
+                            <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Transparent>
+                            <Zoom Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Zoom>
+                            <Flip Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Flip>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Change>
+                        <Steady>
+                            <Invalid/>
+                            <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Roll>
+                        </Steady>
+                    </Function>
+                </Control>
+            </FuncInfo>
+            <MultiMedia>
+                <Common>
+                    <Invalid/>
+                    <Image>
+                        <RC0 types="svg;png;jpg;bmp"/>
+                        <RC1 types="svg;png;jpg;bmp"/>
+                        <RC2 types="svg;png;jpg;bmp"/>
+                        <RC3 types="svg;png;jpg;bmp"/>
+                        <RC4 types="svg;png;jpg;bmp"/>
+                    </Image>
+                </Common>
+                <Change>
+                    <Invalid/>
+                    <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                        <Invalid types="*"/>
+                    </SlipCycle>
+                    <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                        <Invalid types="*"/>
+                    </Roll>
+                    <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                        <Invalid types="*"/>
+                    </Transparent>
+                </Change>
+                <Control>
+                    <Video>
+                        <Common>
+                            <Invalid/>
+                            <Film>
+                                <RC100 types="svg;png;jpg;bmp"  nickname="Background"/>
+                                <RC0 types="avi;mp4;rmvb;swf"/>
+                                <RC1 types="avi;mp4;rmvb;swf"/>
+                                <RC2 types="avi;mp4;rmvb;swf"/>
+                                <RC3 types="avi;mp4;rmvb;swf"/>
+                                <RC4 types="avi;mp4;rmvb;swf"/>
+                                <RC5 types="avi;mp4;rmvb;swf"/>
+                                <RC6 types="avi;mp4;rmvb;swf"/>
+                                <RC7 types="avi;mp4;rmvb;swf"/>
+                                <RC8 types="avi;mp4;rmvb;swf"/>
+                                <RC9 types="avi;mp4;rmvb;swf"/>
+                            </Film>
+                        </Common>
+                        <Change>
+                            <Invalid/>
+                            <Zoom Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Zoom>
+                            <Blink Parameter="Interval:1000;FrameRange:10;DutyRatio">
+                                <Invalid types="*"/>
+                            </Blink>
+                        </Change>
+                    </Video>
+                    <Audio>
+                        <Common>
+                            <Invalid/>
+                            <Audio>
+                                <RC100 types="svg;png;jpg;bmp"  nickname="Background"/>
+                                <RC0 types="wav;mp3" nickname="floor 0"/>
+                                <RC1 types="wav;mp3" nickname="floor 1"/>
+                                <RC2 types="wav;mp3" nickname="floor 2"/>
+                                <RC3 types="wav;mp3" nickname="floor 3"/>
+                                <RC4 types="wav;mp3" nickname="floor 4"/>
+                                <RC5 types="wav;mp3" nickname="floor 5"/>
+                                <RC6 types="wav;mp3" nickname="floor 6"/>
+                                <RC7 types="wav;mp3" nickname="floor 7"/>
+                                <RC8 types="wav;mp3" nickname="floor 8"/>
+                                <RC9 types="wav;mp3" nickname="floor 9"/>
+                                <RC10 types="wav;mp3" nickname="floor 10"/>
+                                <RC11 types="wav;mp3" nickname="floor 11"/>
+                                <RC12 types="wav;mp3" nickname="floor 12"/>
+                                <RC13 types="wav;mp3" nickname="floor 13"/>
+                                <RC14 types="wav;mp3" nickname="floor 14"/>
+                                <RC15 types="wav;mp3" nickname="floor 15"/>
+                                <RC16 types="wav;mp3" nickname="floor 16"/>
+                                <RC17 types="wav;mp3" nickname="floor 17"/>
+                                <RC18 types="wav;mp3" nickname="floor 18"/>
+                                <RC19 types="wav;mp3" nickname="floor 19"/>
+                                <RC20 types="wav;mp3" nickname="floor 20"/>
+                                <RC21 types="wav;mp3" nickname="floor 21"/>
+                                <RC22 types="wav;mp3" nickname="floor 22"/>
+                                <RC23 types="wav;mp3" nickname="floor 23"/>
+                                <RC24 types="wav;mp3" nickname="floor 24"/>
+                                <RC25 types="wav;mp3" nickname="floor 25"/>
+                                <RC26 types="wav;mp3" nickname="floor 26"/>
+                                <RC27 types="wav;mp3" nickname="floor 27"/>
+                                <RC28 types="wav;mp3" nickname="floor 28"/>
+                                <RC29 types="wav;mp3" nickname="floor 29"/>
+                                <RC31 types="wav;mp3" nickname="floor -1"/>
+                                <RC32 types="wav;mp3" nickname="floor -2"/>
+                                <RC33 types="wav;mp3" nickname="floor -3"/>
+                                <RC34 types="wav;mp3" nickname="floor -4"/>
+                                <RC35 types="wav;mp3" nickname="floor -5"/>
+                                <RC36 types="wav;mp3" nickname="floor -6"/>
+                                <RC37 types="wav;mp3" nickname="floor -7"/>
+                                <RC38 types="wav;mp3" nickname="floor -8"/>
+                                <RC39 types="wav;mp3" nickname="floor -9"/>
+                                <RC101 types="wav;mp3"  nickname="Ding"/>
+                                <RC102 types="wav;mp3"  nickname="Ding dang"/>
+                                <RC103 types="wav;mp3"  nickname="Ding dang dong"/>
+                                <RC104 types="wav;mp3"  nickname="Door close"/>
+                                <RC105 types="wav;mp3"  nickname="Door open"/>
+                            </Audio>
+                        </Common>
+                        <Change>
+                            <Invalid/>
+                            <Zoom Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Zoom>
+                            <Blink Parameter="Interval:1000;FrameRange:10;DutyRatio:1">
+                                <Invalid types="*"/>
+                            </Blink>
+                        </Change>
+                    </Audio>
+                    <Image>
+                        <Common>
+                            <Invalid/>
+                            <Image>
+                                <RC0 types="svg;bmp;jpg;png"/>
+                                <RC1 types="svg;bmp;jpg;png"/>
+                                <RC2 types="svg;bmp;jpg;png"/>
+                                <RC3 types="svg;bmp;jpg;png"/>
+                                <RC4 types="svg;bmp;jpg;png"/>
+                                <RC5 types="svg;bmp;jpg;png"/>
+                                <RC6 types="svg;bmp;jpg;png"/>
+                                <RC7 types="svg;bmp;jpg;png"/>
+                                <RC8 types="svg;bmp;jpg;png"/>
+                                <RC9 types="svg;bmp;jpg;png"/>
+                                <RC10 types="svg;bmp;jpg;png"/>
+                                <RC11 types="svg;bmp;jpg;png"/>
+                                <RC12 types="svg;bmp;jpg;png"/>
+                                <RC13 types="svg;bmp;jpg;png"/>
+                                <RC14 types="svg;bmp;jpg;png"/>
+                                <RC15 types="svg;bmp;jpg;png"/>
+                                <RC16 types="svg;bmp;jpg;png"/>
+                                <RC17 types="svg;bmp;jpg;png"/>
+                                <RC18 types="svg;bmp;jpg;png"/>
+                                <RC19 types="svg;bmp;jpg;png"/>
+                            </Image>
+                        </Common>
+                        <Change>
+                            <Invalid/>
+                            <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Transparent>
+                            <Zoom Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Zoom>
+                            <Flip Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Flip>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                            <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Roll>
+                        </Change>
+                        <Steady>
+                            <Invalid/>
+                            <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Roll>
+                        </Steady>
+                    </Image>
+                    <Phone>
+                        <Common>
+                            <Invalid/>
+                            <Image>
+                                <RC0 types="svg;bmp;jpg;png"/>
+                            </Image>
+                        </Common>
+                    </Phone>
+                    <WebView>
+                        <Common>
+                            <Invalid/>
+                            <Url>
+                                <RC100 types="svg;png;jpg;bmp"  nickname="Background"/>
+                                <RC0 types="mht;html;htm;shtml;asp" nickname="0"/>
+                                <RC1 types="mht;html;htm;shtml;asp" nickname="1"/>
+                                <RC2 types="mht;html;htm;shtml;asp" nickname="2"/>
+                                <RC3 types="mht;html;htm;shtml;asp" nickname="3"/>
+                                <RC4 types="mht;html;htm;shtml;asp" nickname="4"/>
+                                <RC5 types="mht;html;htm;shtml;asp" nickname="5"/>
+                                <RC6 types="mht;html;htm;shtml;asp" nickname="6"/>
+                                <RC7 types="mht;html;htm;shtml;asp" nickname="7"/>
+                                <RC8 types="mht;html;htm;shtml;asp" nickname="8"/>
+                                <RC9 types="mht;html;htm;shtml;asp" nickname="9"/>
+                                <RC10 types="mht;html;htm;shtml;asp" nickname="10"/>
+                                <RC11 types="mht;html;htm;shtml;asp" nickname="11"/>
+                                <RC12 types="mht;html;htm;shtml;asp" nickname="12"/>
+                                <RC13 types="mht;html;htm;shtml;asp" nickname="13"/>
+                                <RC14 types="mht;html;htm;shtml;asp" nickname="14"/>
+                                <RC15 types="mht;html;htm;shtml;asp" nickname="15"/>
+                                <RC16 types="mht;html;htm;shtml;asp" nickname="16"/>
+                                <RC17 types="mht;html;htm;shtml;asp" nickname="17"/>
+                                <RC18 types="mht;html;htm;shtml;asp" nickname="18"/>
+                                <RC19 types="mht;html;htm;shtml;asp" nickname="19"/>
+                            </Url>
+                        </Common>
+                    </WebView>
+                    <QML>
+                        <Common>
+                            <Invalid/>
+                            <Url>
+                                <RC0 types="qml" nickname="0"/>
+                                <RC1 types="qml" nickname="1"/>
+                                <RC2 types="qml" nickname="2"/>
+                                <RC3 types="qml" nickname="3"/>
+                                <RC4 types="qml" nickname="4"/>
+                                <RC5 types="qml" nickname="5"/>
+                                <RC6 types="qml" nickname="6"/>
+                                <RC7 types="qml" nickname="7"/>
+                                <RC8 types="qml" nickname="8"/>
+                                <RC9 types="qml" nickname="9"/>
+                            </Url>
+                        </Common>
+                    </QML>
+                    <OpenGL>
+                        <Common>
+                            <Invalid/>
+                            <Image Parameter="Pattern:Cube/Disk/Sphere/Cylinder/Cone">
+                                <RC0 types="svg;bmp;jpg;png;3ds" nickname="0"/>
+                                <RC1 types="svg;bmp;jpg;png;3ds" nickname="1"/>
+                                <RC2 types="svg;bmp;jpg;png;3ds" nickname="2"/>
+                                <RC3 types="svg;bmp;jpg;png;3ds" nickname="3"/>
+                                <RC4 types="svg;bmp;jpg;png;3ds" nickname="4"/>
+                                <RC5 types="svg;bmp;jpg;png;3ds" nickname="5"/>
+                                <RC6 types="svg;bmp;jpg;png;3ds" nickname="6"/>
+                                <RC7 types="svg;bmp;jpg;png;3ds" nickname="7"/>
+                                <RC8 types="svg;bmp;jpg;png;3ds" nickname="8"/>
+                                <RC9 types="svg;bmp;jpg;png;3ds" nickname="9"/>
+                            </Image>
+                        </Common>
+                    </OpenGL>
+                </Control>
+            </MultiMedia>
+            <TextBulletin>
+                <Common>
+                    <Invalid/>
+                    <Image>
+                        <RC0 types="svg;png;jpg;bmp"/>
+                        <RC1 types="svg;png;jpg;bmp"/>
+                        <RC2 types="svg;png;jpg;bmp"/>
+                        <RC3 types="svg;png;jpg;bmp"/>
+                        <RC4 types="svg;png;jpg;bmp"/>
+                    </Image>
+                </Common>
+                <Change>
+                    <Invalid/>
+                    <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                        <Invalid types="*"/>
+                    </SlipCycle>
+                    <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                        <Invalid types="*"/>
+                    </Roll>
+                    <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                        <Invalid types="*"/>
+                    </Transparent>
+                </Change>
+                <Control>
+                    <Text>
+                        <Common>
+                            <Invalid/>
+                            <Txt>
+                                <RC0 types="svg;bmp;jpg;png"/>
+                                <RC1 types="svg;bmp;jpg;png"/>
+                                <RC2 types="svg;bmp;jpg;png"/>
+                                <RC3 types="svg;bmp;jpg;png"/>
+                                <RC4 types="svg;bmp;jpg;png"/>
+                                <RC5 types="svg;bmp;jpg;png"/>
+                                <RC6 types="svg;bmp;jpg;png"/>
+                                <RC7 types="svg;bmp;jpg;png"/>
+                                <RC8 types="svg;bmp;jpg;png"/>
+                                <RC9 types="svg;bmp;jpg;png"/>
+                            </Txt>
+                        </Common>
+                        <Change>
+                            <Invalid/>
+                            <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Transparent>
+                            <Zoom Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Zoom>
+                        </Change>
+                        <Steady>
+                            <Invalid/>
+                            <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Roll>
+                        </Steady>
+                    </Text>
+                </Control>
+            </TextBulletin>
+            <IntegratedInfo>
+                <Common>
+                    <Invalid/>
+                    <Image>
+                        <RC0 types="svg;png;jpg;bmp"/>
+                        <RC1 types="svg;png;jpg;bmp"/>
+                        <RC2 types="svg;png;jpg;bmp"/>
+                        <RC3 types="svg;png;jpg;bmp"/>
+                        <RC4 types="svg;png;jpg;bmp"/>
+                        <RC5 types="svg;bmp;jpg;png"/>
+                    </Image>
+                </Common>
+                <Change>
+                    <Invalid/>
+                    <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                        <Invalid types="*"/>
+                    </SlipCycle>
+                    <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                        <Invalid types="*"/>
+                    </Roll>
+                    <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                        <Invalid types="*"/>
+                    </Transparent>
+                </Change>
+                <Control>
+                    <Logo>
+                        <Common>
+                            <Invalid/>
+                            <Image>
+                                <RC0 types="svg;png;bmp;jpg"/>
+                                <RC1 types="svg;png;bmp;jpg"/>
+                                <RC2 types="svg;png;bmp;jpg"/>
+                                <RC3 types="svg;png;bmp;jpg"/>
+                                <RC4 types="svg;png;bmp;jpg"/>
+                            </Image>
+                        </Common>
+                        <Change>
+                            <Invalid/>
+                            <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Transparent>
+                            <Zoom Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Zoom>
+                            <Cube Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Cube>
+                        </Change>
+                        <Steady>
+                            <Invalid/>
+                            <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Roll>
+                            <Cube Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Cube>
+                        </Steady>
+                    </Logo>
+                    <Weather>
+                        <Common>
+                            <Invalid/>
+                            <Image>
+                                <RC0 types="svg;bmp;jpg;png" nickname="Sunny"/>
+                                <RC1 types="svg;bmp;jpg;png" nickname="Rain"/>
+                                <RC2 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC3 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC4 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC5 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC6 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC7 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC8 types="svg;bmp;jpg;png" nickname=""/>
+                                <RC9 types="svg;bmp;jpg;png" nickname=""/>
+                            </Image>
+                        </Common>
+                        <Change>
+                            <Invalid/>
+                            <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Roll>
+                            <Zoom Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Zoom>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                            <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Transparent>
+                        </Change>
+                    </Weather>
+                    <Time>
+                        <Common>
+                            <Invalid/>
+                            <Digital Parameter="Pattern:V_YMDWHMS/H_YMDWHMS/MOJI_MDWHM">
+                                <RC100 types="svg;png;jpg;bmp" nickname="ClockBackGround"/>
+                                <RC0 types="svg;png;bmp;jpg" nickname="0"/>
+                                <RC1 types="svg;png;bmp;jpg" nickname="1"/>
+                                <RC2 types="svg;png;bmp;jpg" nickname="2"/>
+                                <RC3 types="svg;png;bmp;jpg" nickname="3"/>
+                                <RC4 types="svg;png;bmp;jpg" nickname="4"/>
+                                <RC5 types="svg;png;bmp;jpg" nickname="5"/>
+                                <RC6 types="svg;png;bmp;jpg" nickname="6"/>
+                                <RC7 types="svg;png;bmp;jpg" nickname="7"/>
+                                <RC8 types="svg;png;bmp;jpg" nickname="8"/>
+                                <RC9 types="svg;png;bmp;jpg" nickname="9"/>
+                                <RC10 types="svg;png;jpg;bmp" nickname="Mon"/>
+                                <RC11 types="svg;png;jpg;bmp" nickname="Tue"/>
+                                <RC12 types="svg;png;jpg;bmp" nickname="Wed"/>
+                                <RC13 types="svg;png;jpg;bmp" nickname="Thu"/>
+                                <RC14 types="svg;png;jpg;bmp" nickname="Fri"/>
+                                <RC15 types="svg;png;jpg;bmp" nickname="Sat"/>
+                                <RC16 types="svg;png;jpg;bmp" nickname="Sun"/>
+                                <RC17 types="png;jpg;bmp;jpg" nickname="Colon"/>
+                                <RC18 types="png;jpg;bmp;jpg" nickname="Minus"/>
+                            </Digital>
+                            <Analog>
+                                <RC100 types="svg;png;jpg;bmp" nickname="ClockBackGround"/>
+                                <RC0 types="svg;png;bmp;jpg" nickname="0"/>
+                                <RC1 types="svg;png;bmp;jpg" nickname="1"/>
+                                <RC2 types="svg;png;bmp;jpg" nickname="2"/>
+                                <RC3 types="svg;png;bmp;jpg" nickname="3"/>
+                                <RC4 types="svg;png;bmp;jpg" nickname="4"/>
+                                <RC5 types="svg;png;bmp;jpg" nickname="5"/>
+                                <RC6 types="svg;png;bmp;jpg" nickname="6"/>
+                                <RC7 types="svg;png;bmp;jpg" nickname="7"/>
+                                <RC8 types="svg;png;bmp;jpg" nickname="8"/>
+                                <RC9 types="svg;png;bmp;jpg" nickname="9"/>
+                                <RC10 types="svg;png;jpg;bmp" nickname="Mon"/>
+                                <RC11 types="svg;png;jpg;bmp" nickname="Tue"/>
+                                <RC12 types="svg;png;jpg;bmp" nickname="Wed"/>
+                                <RC13 types="svg;png;jpg;bmp" nickname="Thu"/>
+                                <RC14 types="svg;png;jpg;bmp" nickname="Fri"/>
+                                <RC15 types="svg;png;jpg;bmp" nickname="Sat"/>
+                                <RC16 types="svg;png;jpg;bmp" nickname="Sun"/>
+                                <RC18 types="svg;png;jpg;bmp" nickname="Minus"/>
+                                <RC19 types="jpg;svg;bmp;png" nickname="HourHand"/>
+                                <RC20 types="jpg;svg;bmp;png" nickname="MinuteHand"/>
+                                <RC21 types="jpg;svg;bmp;png" nickname="SecondHand"/>
+                                <RC22 types="jpg;svg;bmp;png" nickname="Dot"/>
+                            </Analog>
+                        </Common>
+                        <Change>
+                            <Invalid/>
+                            <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Roll>
+                            <Flip Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Flip>
+                        </Change>
+                    </Time>
+                    <NamePlate>
+                        <Common>
+                            <Invalid/>
+                            <Image>
+                                <RC0 types="svg;png;bmp;jpg"/>
+                                <RC1 types="svg;png;bmp;jpg"/>
+                                <RC2 types="svg;png;bmp;jpg"/>
+                                <RC3 types="svg;png;bmp;jpg"/>
+                                <RC4 types="svg;png;bmp;jpg"/>
+                                <RC5 types="svg;png;bmp;jpg"/>
+                                <RC6 types="svg;png;bmp;jpg"/>
+                                <RC7 types="svg;png;bmp;jpg"/>
+                                <RC8 types="svg;png;bmp;jpg"/>
+                                <RC9 types="svg;png;bmp;jpg"/>
+                            </Image>
+                        </Common>
+                        <Change>
+                            <Invalid/>
+                            <Roll Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Roll>
+                            <Zoom Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Zoom>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                            <Transparent Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Transparent>
+                        </Change>
+                    </NamePlate>
+                </Control>
+            </IntegratedInfo>
+            <ButtonOperate>
+                <Common>
+                    <Invalid/>
+                    <Image>
+                        <RC0 types="svg;png;jpg;bmp"/>
+                        <RC1 types="svg;png;jpg;bmp"/>
+                        <RC2 types="svg;png;jpg;bmp"/>
+                        <RC3 types="svg;png;jpg;bmp"/>
+                        <RC4 types="svg;png;jpg;bmp"/>
+                    </Image>
+                </Common>
+                <Change>
+                    <Invalid/>
+                    <SlipCycle Parameter="Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                        <Invalid types="*"/>
+                    </SlipCycle>
+                    <Roll Parameter="Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                        <Invalid types="*"/>
+                    </Roll>
+                    <Transparent Parameter="Interval:1000">
+                        <Invalid types="*"/>
+                    </Transparent>
+                </Change>
+                <Control>
+                    <FloorBtn>
+                        <Common>
+                            <Invalid/>
+                            <Image Parameter="Pattern:Grid/Ellipse/Guide;Amount;Row;Column;RowSpace;ColumnSpace">
+                                <RC0 types="svg;png;bmp;jpg" nickname="DarkImage"/>
+                                <RC1 types="svg;png;bmp;jpg" nickname="LightImage"/>
+                                <RC2 types="svg;png;bmp;jpg" nickname="EffectImage"/>
+                                <RC48 types="svg;png;jpg;bmp" nickname="Dark0"/>
+                                <RC49 types="svg;png;jpg;bmp" nickname="Dark1"/>
+                                <RC50 types="svg;png;jpg;bmp" nickname="Dark2"/>
+                                <RC51 types="svg;png;jpg;bmp" nickname="Dark3"/>
+                                <RC52 types="svg;png;jpg;bmp" nickname="Dark4"/>
+                                <RC53 types="svg;png;jpg;bmp" nickname="Dark5"/>
+                                <RC54 types="svg;png;jpg;bmp" nickname="Dark6"/>
+                                <RC55 types="svg;png;jpg;bmp" nickname="Dark7"/>
+                                <RC56 types="svg;png;jpg;bmp" nickname="Dark8"/>
+                                <RC57 types="svg;png;jpg;bmp" nickname="Dark9"/>
+                                <RC65 types="svg;png;jpg;bmp" nickname="DarkA"/>
+                                <RC66 types="svg;png;jpg;bmp" nickname="DarkB"/>
+                                <RC67 types="svg;png;jpg;bmp" nickname="DarkC"/>
+                                <RC68 types="svg;png;jpg;bmp" nickname="DarkD"/>
+                                <RC69 types="svg;png;jpg;bmp" nickname="DarkE"/>
+                                <RC70 types="svg;png;jpg;bmp" nickname="DarkF"/>
+                                <RC71 types="svg;png;jpg;bmp" nickname="DarkG"/>
+                                <RC72 types="svg;png;jpg;bmp" nickname="DarkH"/>
+                                <RC73 types="svg;png;jpg;bmp" nickname="DarkI"/>
+                                <RC74 types="svg;png;jpg;bmp" nickname="DarkJ"/>
+                                <RC75 types="svg;png;jpg;bmp" nickname="DarkK"/>
+                                <RC76 types="svg;png;jpg;bmp" nickname="DarkL"/>
+                                <RC77 types="svg;png;jpg;bmp" nickname="DarkM"/>
+                                <RC78 types="svg;png;jpg;bmp" nickname="DarkN"/>
+                                <RC79 types="svg;png;jpg;bmp" nickname="DarkO"/>
+                                <RC80 types="svg;png;jpg;bmp" nickname="DarkP"/>
+                                <RC81 types="svg;png;jpg;bmp" nickname="DarkQ"/>
+                                <RC82 types="svg;png;jpg;bmp" nickname="DarkR"/>
+                                <RC83 types="svg;png;jpg;bmp" nickname="DarkS"/>
+                                <RC84 types="svg;png;jpg;bmp" nickname="DarkT"/>
+                                <RC85 types="svg;png;jpg;bmp" nickname="DarkU"/>
+                                <RC86 types="svg;png;jpg;bmp" nickname="DarkV"/>
+                                <RC87 types="svg;png;jpg;bmp" nickname="DarkW"/>
+                                <RC88 types="svg;png;jpg;bmp" nickname="DarkX"/>
+                                <RC89 types="svg;png;jpg;bmp" nickname="DarkY"/>
+                                <RC90 types="svg;png;jpg;bmp" nickname="DarkZ"/>
+                                <RC148 types="svg;png;jpg;bmp" nickname="Light0"/>
+                                <RC149 types="svg;png;jpg;bmp" nickname="Light1"/>
+                                <RC150 types="svg;png;jpg;bmp" nickname="Light2"/>
+                                <RC151 types="svg;png;jpg;bmp" nickname="Light3"/>
+                                <RC152 types="svg;png;jpg;bmp" nickname="Light4"/>
+                                <RC153 types="svg;png;jpg;bmp" nickname="Light5"/>
+                                <RC154 types="svg;png;jpg;bmp" nickname="Light6"/>
+                                <RC155 types="svg;png;jpg;bmp" nickname="Light7"/>
+                                <RC156 types="svg;png;jpg;bmp" nickname="Light8"/>
+                                <RC157 types="svg;png;jpg;bmp" nickname="Light9"/>
+                                <RC165 types="svg;png;jpg;bmp" nickname="LightA"/>
+                                <RC166 types="svg;png;jpg;bmp" nickname="LightB"/>
+                                <RC167 types="svg;png;jpg;bmp" nickname="LightC"/>
+                                <RC168 types="svg;png;jpg;bmp" nickname="LightD"/>
+                                <RC169 types="svg;png;jpg;bmp" nickname="LightE"/>
+                                <RC170 types="svg;png;jpg;bmp" nickname="LightF"/>
+                                <RC171 types="svg;png;jpg;bmp" nickname="LightG"/>
+                                <RC172 types="svg;png;jpg;bmp" nickname="LightH"/>
+                                <RC173 types="svg;png;jpg;bmp" nickname="LightI"/>
+                                <RC174 types="svg;png;jpg;bmp" nickname="LightJ"/>
+                                <RC175 types="svg;png;jpg;bmp" nickname="LightK"/>
+                                <RC176 types="svg;png;jpg;bmp" nickname="LightL"/>
+                                <RC177 types="svg;png;jpg;bmp" nickname="LightM"/>
+                                <RC178 types="svg;png;jpg;bmp" nickname="LightN"/>
+                                <RC179 types="svg;png;jpg;bmp" nickname="LightO"/>
+                                <RC180 types="svg;png;jpg;bmp" nickname="LightP"/>
+                                <RC181 types="svg;png;jpg;bmp" nickname="LightQ"/>
+                                <RC182 types="svg;png;jpg;bmp" nickname="LightR"/>
+                                <RC183 types="svg;png;jpg;bmp" nickname="LightS"/>
+                                <RC184 types="svg;png;jpg;bmp" nickname="LightT"/>
+                                <RC185 types="svg;png;jpg;bmp" nickname="LightU"/>
+                                <RC186 types="svg;png;jpg;bmp" nickname="LightV"/>
+                                <RC187 types="svg;png;jpg;bmp" nickname="LightW"/>
+                                <RC188 types="svg;png;jpg;bmp" nickname="LightX"/>
+                                <RC189 types="svg;png;jpg;bmp" nickname="LightY"/>
+                                <RC190 types="svg;png;jpg;bmp" nickname="LightZ"/>
+                            </Image>
+                        </Common>
+                        <Press>
+                            <Invalid/>
+                            <Spread Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Press>
+                        <Release>
+                            <Invalid/>
+                            <Spread Parameter="Interval:1000">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Release>
+                    </FloorBtn>
+                    <KeyboardBtn>
+                        <Common>
+                            <Invalid/>
+                            <Image Parameter="Pattern:QWERTY/GRID_H/GRID_V/DISEN/YUNGTAY;RowSpace;ColumnSpace">
+                                <RC100 types="svg;png;bmp;jpg" nickname="Background"/>
+
+                                <RC0 types="svg;png;bmp;jpg" nickname="DarkImage"/>
+                                <RC1 types="svg;png;bmp;jpg" nickname="LightImage"/>
+                                <RC2 types="svg;png;bmp;jpg" nickname="EffectImage"/>
+                                <RC13 types="svg;png;jpg;bmp" nickname="DarkEnter"/>
+                                <RC27 types="svg;png;jpg;bmp" nickname="DarkEsc"/>
+                                <RC45 types="svg;png;jpg;bmp" nickname="Dark-"/>
+                                <RC48 types="svg;png;jpg;bmp" nickname="Dark0"/>
+                                <RC49 types="svg;png;jpg;bmp" nickname="Dark1"/>
+                                <RC50 types="svg;png;jpg;bmp" nickname="Dark2"/>
+                                <RC51 types="svg;png;jpg;bmp" nickname="Dark3"/>
+                                <RC52 types="svg;png;jpg;bmp" nickname="Dark4"/>
+                                <RC53 types="svg;png;jpg;bmp" nickname="Dark5"/>
+                                <RC54 types="svg;png;jpg;bmp" nickname="Dark6"/>
+                                <RC55 types="svg;png;jpg;bmp" nickname="Dark7"/>
+                                <RC56 types="svg;png;jpg;bmp" nickname="Dark8"/>
+                                <RC57 types="svg;png;jpg;bmp" nickname="Dark9"/>
+                                <RC65 types="svg;png;jpg;bmp" nickname="DarkA"/>
+                                <RC66 types="svg;png;jpg;bmp" nickname="DarkB"/>
+                                <RC67 types="svg;png;jpg;bmp" nickname="DarkC"/>
+                                <RC68 types="svg;png;jpg;bmp" nickname="DarkD"/>
+                                <RC71 types="svg;png;jpg;bmp" nickname="DarkG"/>
+                                <RC72 types="svg;png;jpg;bmp" nickname="DarkH"/>
+                                <RC24 types="svg;png;jpg;bmp" nickname="DarkDisability"/>
+
+                                <RC113 types="svg;png;jpg;bmp" nickname="LightEnter"/>
+                                <RC127 types="svg;png;jpg;bmp" nickname="LightEsc"/>
+                                <RC145 types="svg;png;jpg;bmp" nickname="Light-"/>
+                                <RC148 types="svg;png;jpg;bmp" nickname="Light0"/>
+                                <RC149 types="svg;png;jpg;bmp" nickname="Light1"/>
+                                <RC150 types="svg;png;jpg;bmp" nickname="Light2"/>
+                                <RC151 types="svg;png;jpg;bmp" nickname="Light3"/>
+                                <RC152 types="svg;png;jpg;bmp" nickname="Light4"/>
+                                <RC153 types="svg;png;jpg;bmp" nickname="Light5"/>
+                                <RC154 types="svg;png;jpg;bmp" nickname="Light6"/>
+                                <RC155 types="svg;png;jpg;bmp" nickname="Light7"/>
+                                <RC156 types="svg;png;jpg;bmp" nickname="Light8"/>
+                                <RC157 types="svg;png;jpg;bmp" nickname="Light9"/>
+                                <RC165 types="svg;png;jpg;bmp" nickname="LightA"/>
+                                <RC166 types="svg;png;jpg;bmp" nickname="LightB"/>
+                                <RC167 types="svg;png;jpg;bmp" nickname="LightC"/>
+                                <RC168 types="svg;png;jpg;bmp" nickname="LightD"/>
+                                <RC171 types="svg;png;jpg;bmp" nickname="LightG"/>
+                                <RC172 types="svg;png;jpg;bmp" nickname="LightH"/>
+                                <RC124 types="svg;png;jpg;bmp" nickname="LightDisability"/>
+
+                                <RC200 types="svg;png;jpg;bmp" nickname="LCD"/>
+                                <RC224 types="svg;png;jpg;bmp" nickname="Disability"/>
+                                <RC245 types="svg;png;jpg;bmp" nickname="-"/>
+                                <RC248 types="svg;png;jpg;bmp" nickname="0"/>
+                                <RC249 types="svg;png;jpg;bmp" nickname="1"/>
+                                <RC250 types="svg;png;jpg;bmp" nickname="2"/>
+                                <RC251 types="svg;png;jpg;bmp" nickname="3"/>
+                                <RC252 types="svg;png;jpg;bmp" nickname="4"/>
+                                <RC253 types="svg;png;jpg;bmp" nickname="5"/>
+                                <RC254 types="svg;png;jpg;bmp" nickname="6"/>
+                                <RC255 types="svg;png;jpg;bmp" nickname="7"/>
+                                <RC256 types="svg;png;jpg;bmp" nickname="8"/>
+                                <RC257 types="svg;png;jpg;bmp" nickname="9"/>
+                                <RC265 types="svg;png;jpg;bmp" nickname="A"/>
+                                <RC266 types="svg;png;jpg;bmp" nickname="B"/>
+                                <RC267 types="svg;png;jpg;bmp" nickname="C"/>
+                                <RC268 types="svg;png;jpg;bmp" nickname="D"/>
+                                <RC269 types="svg;png;jpg;bmp" nickname="E"/>
+                                <RC270 types="svg;png;jpg;bmp" nickname="F"/>
+                                <RC271 types="svg;png;jpg;bmp" nickname="G"/>
+                                <RC272 types="svg;png;jpg;bmp" nickname="H"/>
+                            </Image>
+                        </Common>
+                        <Press>
+                            <Invalid/>
+                            <Spread Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Press>
+                        <Release>
+                            <Invalid/>
+                            <Spread Parameter="Interval:1000">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Release>
+                    </KeyboardBtn>
+                    <PhoneBtn>
+                        <Common>
+                            <Invalid/>
+                            <Image>
+                                <RC0 types="svg;png;bmp;jpg" nickname="DarkImage"/>
+                                <RC3 types="svg;png;bmp;jpg" nickname="DarkText"/>
+                                <RC1 types="svg;png;bmp;jpg" nickname="LightImage"/>
+                                <RC4 types="svg;png;bmp;jpg" nickname="LightText"/>
+                                <RC2 types="svg;png;bmp;jpg" nickname="EffectImage"/>
+                            </Image>
+                        </Common>
+                        <Press>
+                            <Invalid/>
+                            <Spread Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Press>
+                        <Release>
+                            <Invalid/>
+                            <Spread Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Release>
+                    </PhoneBtn>
+                    <EmergencyBtn>
+                        <Common>
+                            <Invalid/>
+                            <Image>
+                                <RC0 types="svg;png;bmp;jpg" nickname="DarkImage"/>
+                                <RC3 types="svg;png;bmp;jpg" nickname="DarkText"/>
+                                <RC1 types="svg;png;bmp;jpg" nickname="LightImage"/>
+                                <RC4 types="svg;png;bmp;jpg" nickname="LightText"/>
+                                <RC2 types="svg;png;bmp;jpg" nickname="EffectImage"/>
+                            </Image>
+                        </Common>
+                        <Press>
+                            <Invalid/>
+                            <Spread Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Press>
+                        <Release>
+                            <Invalid/>
+                            <Spread Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Release>
+                    </EmergencyBtn>
+                    <OpenBtn>
+                        <Common>
+                            <Invalid/>
+                            <Image>
+                                <RC0 types="svg;png;bmp;jpg" nickname="DarkImage"/>
+                                <RC3 types="svg;png;bmp;jpg" nickname="DarkText"/>
+                                <RC1 types="svg;png;bmp;jpg" nickname="LightImage"/>
+                                <RC4 types="svg;png;bmp;jpg" nickname="LightText"/>
+                                <RC2 types="svg;png;bmp;jpg" nickname="EffectImage"/>
+                            </Image>
+                        </Common>
+                        <Press>
+                            <Invalid/>
+                            <Spread Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Press>
+                        <Release>
+                            <Invalid/>
+                            <Spread Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Release>
+                    </OpenBtn>
+                    <CloseBtn>
+                        <Common>
+                            <Invalid/>
+                            <Image>
+                                <RC0 types="svg;png;bmp;jpg" nickname="DarkImage"/>
+                                <RC3 types="svg;png;bmp;jpg" nickname="DarkText"/>
+                                <RC1 types="svg;png;bmp;jpg" nickname="LightImage"/>
+                                <RC4 types="svg;png;bmp;jpg" nickname="LightText"/>
+                                <RC2 types="svg;png;bmp;jpg" nickname="EffectImage"/>
+                            </Image>
+                        </Common>
+                        <Press>
+                            <Invalid/>
+                            <Spread Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Press>
+                        <Release>
+                            <Invalid/>
+                            <Spread Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Release>
+                    </CloseBtn>
+                    <SetBtn>
+                        <Common>
+                            <Invalid/>
+                            <Image>
+                                <RC0 types="svg;png;bmp;jpg" nickname="DarkImage"/>
+                                <RC3 types="svg;png;bmp;jpg" nickname="DarkText"/>
+                                <RC1 types="svg;png;bmp;jpg" nickname="LightImage"/>
+                                <RC4 types="svg;png;bmp;jpg" nickname="LightText"/>
+                                <RC2 types="svg;png;bmp;jpg" nickname="EffectImage"/>
+                            </Image>
+                        </Common>
+                        <Press>
+                            <Invalid/>
+                            <Spread Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Press>
+                        <Release>
+                            <Invalid/>
+                            <Spread Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Release>
+                    </SetBtn>
+                    <DisabilityBtn>
+                        <Common>
+                            <Invalid/>
+                            <Image>
+                            <RC0 types="svg;png;bmp;jpg" nickname="DarkImage"/>
+                            <RC3 types="svg;png;bmp;jpg" nickname="DarkText"/>
+                            <RC1 types="svg;png;bmp;jpg" nickname="LightImage"/>
+                            <RC4 types="svg;png;bmp;jpg" nickname="LightText"/>
+                            <RC2 types="svg;png;bmp;jpg" nickname="EffectImage"/>
+                            </Image>
+                        </Common>
+                        <Press>
+                            <Invalid/>
+                            <Spread Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Press>
+                        <Release>
+                            <Invalid/>
+                            <Spread Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Spread>
+                            <SlipCycle Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </SlipCycle>
+                            <Wheel Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Wheel>
+                            <Rotate Parameter="AnimateType:EaseInOut/Linear;Interval:1000;FrameRange:10;Direction:H/V;Orientation:P/N">
+                                <Invalid types="*"/>
+                            </Rotate>
+                        </Release>
+                    </DisabilityBtn>
+                </Control>
+            </ButtonOperate>
+        </SubUI>
+    </Componet>
+    <CfgPara>
+        <Physical>
+            <CPU img=":/Device/rc/Device/cpu.png">
+                <Model Permission="RW" Para="enum" List="N329xx;AM335x;DM3730;IMX6x">AM335X</Model>
+                <AutoRelease Permission="RW" Para="bool">false</AutoRelease>
+                <Threshold Permission="RW" Para="num" List="50;90">60</Threshold>
+            </CPU>
+            <MEM img=":/Device/rc/Device/memory.png">
+                <Model Permission="RW" Para="string">Sunsung 256M</Model>
+                <AutoRelease Permission="RW" Para="bool">false</AutoRelease>
+                <Threshold Permission="RW" Para="num" List="60;90">80</Threshold>
+            </MEM>
+            <NAND img=":/Device/rc/Device/nand.png">
+                <Model Permission="RW" Para="string">Kingston 512M</Model>
+                <ThemeCatalog Permission="RW" Para="string"></ThemeCatalog>
+                <Threshold Permission="RW" Para="num" List="80;90">85</Threshold>
+            </NAND>
+            <MMC img=":/Device/rc/Device/mmc.png">
+                <ThemeCatalog Permission="RW" Para="string"></ThemeCatalog>
+                <Threshold Permission="RW" Para="num" List="0;99">80</Threshold>
+            </MMC>
+            <UDisk img=":/Device/rc/Device/udisk.png">
+                <ThemeCatalog Permission="RW" Para="string"></ThemeCatalog>
+                <Threshold Permission="RW" Para="num" List="0;99">80</Threshold>
+            </UDisk>
+            <RMII img=":/Device/rc/Device/rmii.png">
+                <IP Permission="RW" Para="string">10.200.19.201</IP>
+                <Submask Permission="RW" Para="string">255.255.0.0</Submask>
+                <Gateway Permission="RW" Para="string">10.200.0.254</Gateway>
+                <DNS Permission="RW" Para="string">10.200.0.1</DNS>
+                <DHCP Permission="RW" Para="bool">false</DHCP>
+            </RMII>
+            <GPRS img=":/Device/rc/Device/gprs.png">
+                <Model Permission="RW" Para="enum" List="ZTE3100">ZTE3100</Model>
+                <Buad Permission="RW" Para="enum" List="9600;38400;57600;115200;125000">115200</Buad>
+            </GPRS>
+            <WIFI img=":/Device/rc/Device/wifi.png">
+                <Model Permission="RW" Para="enum" List="RT3070;AR9271">RT3070</Model>
+                <Mode Permission="RW" Para="enum" List="AP;Client">AP</Mode>
+                <ESSID Permission="RW" Para="string">BST</ESSID>
+                <PASSWD Permission="RW" Para="string">1234</PASSWD>
+                <IP Permission="RW" Para="string">10.200.19.202</IP>
+                <Submask Permission="RW" Para="string">255.255.0.0</Submask>
+                <Gateway Permission="RW" Para="string">10.200.0.254</Gateway>
+                <DNS Permission="RW" Para="string">10.200.0.1</DNS>
+                <DHCP Permission="RW" Para="bool">false</DHCP>
+            </WIFI>
+            <Bluetooth img=":/Device/rc/Device/bluetooth.png">
+                <PIN Permission="RW" Para="string" Desc="蓝牙的PIN Code"></PIN>
+            </Bluetooth>
+            <USBNET img=":/Device/rc/Device/usbb.png">
+                <IP Permission="RW" Para="string">10.200.19.203</IP>
+                <Submask Permission="RW" Para="string">255.255.0.0</Submask>
+                <Gateway Permission="RW" Para="string">10.200.0.254</Gateway>
+                <DNS Permission="RW" Para="string">10.200.0.1</DNS>
+                <DHCP Permission="RW" Para="bool">false</DHCP>
+            </USBNET>
+            <USBCOM img=":/Device/rc/Device/usbcom.png">
+                <Port Permission="RW" Para="enum" List="0;1;2;3;4;5;6;7;8;9">1</Port>
+                <Buad Permission="RW" Para="enum" List="9600;115200;125000;250000">115200</Buad>
+            </USBCOM>
+            <USBRMII img=":/Device/rc/Device/usbrmii.png">
+                <IP Permission="RW" Para="string">10.200.19.203</IP>
+                <Submask Permission="RW" Para="string">255.255.0.0</Submask>
+                <Gateway Permission="RW" Para="string">10.200.0.254</Gateway>
+                <DNS Permission="RW" Para="string">10.200.0.1</DNS>
+                <DHCP Permission="RW" Para="bool">false</DHCP>
+            </USBRMII>
+            <RTC img=":/Device/rc/Device/rtc.png">
+                <DotBlink Permission="RW" Para="bool" Desc="时钟与分钟之间的点闪烁">false</DotBlink>
+                <SecondEnable Permission="RW" Para="bool">true</SecondEnable>
+            </RTC>
+            <Audio img=":/Device/rc/Device/auido.png">
+                <Mode Permission="RW" Para="enum" List="OSS;ALSA">ALSA</Mode>
+                <Volume Permission="RW" Para="Num" List="0;127">0</Volume>
+            </Audio>
+            <LCD img=":/Device/rc/Device/lcd.png">
+                <OverLayer Permission="RW" Para="check" List="0;1;2;3;4">0</OverLayer>
+                <Luminance Permission="RW" Para="num" List="0;100">0</Luminance>
+                <DarkTimeout Permission="RW" Para="num" List="0;1000000" Desc="自动设置屏幕亮度为DarkLevel">0</DarkTimeout>
+                <DarkLevel Permission="RW" Para="enum" List="0;25;50;75" Desc="节能模式下的屏幕亮度">50</DarkLevel>
+            </LCD>
+            <LED img=":/Device/rc/Device/led.png">
+            </LED>
+            <Camera img=":/Device/rc/Device/camera.png">
+                <Mode Permission="RW" Para="check" List="YUV;MJPEG" Desc="可用的图像输出格式"></Mode>
+                <Channel Permission="RW" Para="check" List="0;1;2;3" Desc="可用的视频通道">0</Channel>
+                <MaxSize Permission="RW" Para="enum" List="320x240;720x576;1024x768">320x240</MaxSize>
+            </Camera>
+            <NFC img=":/Device/rc/Device/nfc.png">
+                <Mode Permission="RW" Para="check" List="Initiator;Target;CardTag;CardReader" Desc="可用的模式"></Mode>
+            </NFC>
+            <Mouse img=":/Device/rc/Device/mouse.png">
+                <Visible Permission="RW" Para="bool">false</Visible>
+            </Mouse>
+            <Touch img=":/Device/rc/Device/touch.png">
+                <Mode Permission="RW" Para="enum" List="Resistance;Capacitance;Infrared;Ultrasonic;Optics"></Mode>
+            </Touch>
+            <Keyboard img=":/Device/rc/Device/keyboard.png">
+                <Mode Permission="RW" Para="enum" List="Virtual;Machinery">Machinery</Mode>
+                <Pinyin Permission="RW" Para="bool" Desc="支持中文拼音输入">false</Pinyin>
+            </Keyboard>
+            <Sodimas-SAF img=":/Device/rc/Device/sodimas.png">
+                <Coincide Permission="RW" Para="bool">false</Coincide>
+                <DooropenSound Permission="RW" Para="bool">false</DooropenSound>
+                <Frame51 Permission="RW" Para="enum" List="None;Floor;Inspection">None</Frame51>
+                <Frame51Timeout Permission="RW" Para="num" List="1000;99999">5000</Frame51Timeout>
+                <Frame51Freq Permission="RW" Para="num" List="1000;99999">2000</Frame51Freq>
+            </Sodimas-SAF>
+            <Sodimas-CAN img=":/Device/rc/Device/can.png">
+                <Port Permission="RW" Para="enum" List="0;1;2;3;4;5;6;7;8;9">1</Port>
+                <Buad Permission="RW" Para="enum" List="9600;115200;125000;250000">115200</Buad>
+            </Sodimas-CAN>
+            <BST-RS232 img=":/Device/rc/Device/rs232.png">
+                <Port Permission="RW" Para="enum" List="0;1;2;3;4;5;6;7;8;9">1</Port>
+                <Buad Permission="RW" Para="enum" List="9600;115200;125000;250000">115200</Buad>
+            </BST-RS232>
+            <Yungtay-RS485 img=":/Device/rc/Device/rs485.png">
+                <Port Permission="RW" Para="enum" List="0;1;2;3;4;5;6;7;8;9">2</Port>
+                <Buad Permission="RW" Para="enum" List="9600;115200;125000;250000">115200</Buad>
+            </Yungtay-RS485>
+        </Physical>
+        <Logic>
+            <DLNA img=":/Device/rc/Device/dlna.png">
+                <Name Permission="RW" Para="string"></Name>
+                <Port Permission="RW" Para="num" List="49152;65535"></Port>
+                <MediaCatalog Permission="RW" Para="string"></MediaCatalog>
+                <DBCatalog Permission="RW" Para="string"></DBCatalog>
+                <Device Permission="RW" Para="check" List="RMII;GPRS;WIFI;NFC;Bluetooth;Sodimas-CAN"></Device>
+            </DLNA>
+            <Bonjour img=":/Device/rc/Device/bonjour.png">
+                <ScanEnable Permission="RW" Para="bool">true</ScanEnable>
+                <Type Permission="RW" Para="string" Desc="本机的服务类型"></Type>
+                <Name Permission="RW" Para="string" Desc="本机的服务名"></Name>
+                <Port Permission="RW" Para="num" List="49152;65535"></Port>
+                <Device Permission="RW" Para="check" List="RMII;GPRS;WIFI;NFC;Bluetooth;Sodimas-CAN"></Device>
+            </Bonjour>
+            <FTP img=":/Device/rc/Device/ftp.png">
+                <Catalog Permission="RW" Para="string" Desc="FTP根目录"></Catalog>
+                <Passwd Permission="RW" Para="string" Desc="FTP登陆密码"></Passwd>
+                <Device Permission="RW" Para="check" List="RMII;GPRS;WIFI;NFC;Bluetooth;Sodimas-CAN"></Device>
+            </FTP>
+            <SSH img=":/Device/rc/Device/ssh.png">
+                <Passphrase Permission="RW" Para="string" Desc="登陆口令"></Passphrase>
+                <Device Permission="RW" Para="check" List="RMII;GPRS;WIFI;NFC;Bluetooth;Sodimas-CAN"></Device>
+            </SSH>
+            <Monitor img=":/Device/rc/Device/monitor.png">
+                <Size Permission="RW" Para="string" Mode="link[MaxSize]"></Size>
+                <Audio Permission="RW" Para="bool" Desc="是否包含音频流">false</Audio>
+                <TDM Permission="RW" Para="num" List="0;60000" Desc="以时分复用方式采集可用通道，0表示仅采集固定通道">0</TDM>
+                <MotionAlarm Permission="RW" Para="bool" Desc="检测到运动人体发送报警信号">false</MotionAlarm>
+                <Device Permission="RW" Para="enum" List="Camera"></Device>
+            </Monitor>
+            <VideoPhone img=":/Device/rc/Device/videophone.png">
+                <Size Permission="RW" Para="string" Mode="link[MaxSize]"></Size>
+                <Video Permission="RW" Para="bool" Desc="是否包含视频流">true</Video>
+                <Audio Permission="RW" Para="bool" Desc="是否包含音频流">true</Audio>
+                <Device Permission="RW" Para="enum" List="Camera"></Device>
+            </VideoPhone>
+            <CardReader img=":/Device/rc/Device/cardreader.png">
+                <CardMode Permission="RW" Para="check" List="ISO14443A;ISO14443B;FELICA212;FELICA424;JEWEL"></CardMode>
+                <KeyAlarm Permission="RW" Para="string" Desc="监测到此关键字时发出报警"></KeyAlarm>
+                <Device Permission="RW" Para="enum" List="NFC"></Device>
+            </CardReader>
+            <AutoConnect img=":/Menu/rc/Menu/internet.png">
+                <Device Permission="RW" Para="check" List="NFC;WIFI"></Device>
+            </AutoConnect>
+            <Elevator img=":/Device/rc/Device/evevator.png">
+                <StationTalk Permission="RW" Para="enum" List="Forbid;Enable;Negation">Forbid</StationTalk>
+                <StationArrive Permission="RW" Para="enum" List="Forbid;Enable;Negation">Forbid</StationArrive>
+                <Device Permission="RW" Para="enum" List="Sodimas-SAF;Sodimas-CAN;BST-RS232;BST-CAN;Yungtay-RS485"></Device>
+            </Elevator>
+            <ThemeManager img=":/Page/rc/Page/ui.png">
+                <Location Permission="RW" Para="string" Desc="本主题在桌面Grid布局中的行列">0x0</Location>
+                <Resolution Permission="RW" Para="enum" List="480x272;800x480;1024x768;1280x800;1360x768;1680x1050;1920x1080">800x480</Resolution>
+                <Rotation Permission="RW" Para="enum" List="0;90;180;270">0</Rotation>
+                <RenderDev Permission="RW" Para="enum" List="QPainter;OpenGL;GDI+;Driect2D;XV">QPainter</RenderDev>
+                <ActiveTheme Permission="RW" Para="enum" Mode="link[ThemeCatalog]"></ActiveTheme>
+                <Device Permission="RW" Para="enum" List="NAND;MMC;UDisk"></Device>
+            </ThemeManager>
+            <ContentUpdates img=":/Page/rc/Page/zip.png">
+                <Backstage Permission="RW" Para="bool" Desc="是否">false</Backstage>
+                <Device Permission="RW" Para="check" List="MMC;UDisk;RMII;WIFI;Sodimas-CAN"></Device>
+            </ContentUpdates>
+            <NetDiscovery img=":/Device/rc/Device/net.png">
+                <BroadcastPort Permission="RW" Para="num" List="49152;65535" Desc="广播服务端口号"></BroadcastPort>
+                <MulticastPort Permission="RW" Para="num" List="49152;65535" Desc="组播服务端口号"></MulticastPort>
+                <UnicastPort Permission="RW" Para="num" List="49152;65535" Desc="单播服务端口号"></UnicastPort>
+                <Device Permission="RW" Para="check" List="RMII;WIFI;NFC;Bluetooth;Sodimas-CAN"></Device>
+            </NetDiscovery>
+            <NetManager img=":/Device/rc/Device/net.png">
+                <DebugMode Permission="RW" Para="bool" Desc="是否开启调试模式">false</DebugMode>
+                <Device Permission="RW" Para="check" List="RMII;GPRS;WIFI;NFC;Bluetooth;Sodimas-CAN"></Device>
+            </NetManager>
+        </Logic>
+    </CfgPara>
+    <ProtocolInterface>
+        <BST3GP img=":/Device/rc/Device/rs232.png">
+            <FloorHundred Para="enum" List=" ;0;1;2;3;4;5;6;7;8;9;B;-;#"> </FloorHundred>
+            <FloorTen Para="enum" List=" ;0;1;2;3;4;5;6;7;8;9"> </FloorTen>
+            <FloorUnit Para="enum" List=" ;0;1;2;3;4;5;6;7;8;9"> </FloorUnit>
+            <CheckFunc Para="check" List="ArrowUp;ArrowDown;EvevatorRun"></CheckFunc>
+            <RadioFunc Para="enum" List="Fire;Maintance"></RadioFunc>
+            <Audio Para="num" List="0;127">0</Audio>
+            <ExtendFunc Para="check" List="FlushFloor;FlushArrow;FlushFunc;FlushAudio">0</ExtendFunc>
+            <QuickLaunch Para="button" List=""></QuickLaunch>
+        </BST3GP>
+        <SodimasSAF img=":/Device/rc/Device/saf.png">
+            <SF Para="switch" Desc="指示高低电平">off</SF>
+            <TALK Para="switch">off</TALK>
+            <SGO Para="switch">off</SGO>
+            <FLD Para="switch">off</FLD>
+            <FLM Para="switch">off</FLM>
+            <SAF Para="num" List="1;70">1</SAF>
+            <QuickLaunch Para="button" List=""></QuickLaunch>
+        </SodimasSAF>
+        <SodimasCAN img=":/Device/rc/Device/can.png">
+            <FloorHundred Para="num" List="0;9">0</FloorHundred>
+            <FloorTen Para="num" List="0;9">0</FloorTen>
+            <FloorUnit Para="num" List="0;9">0</FloorUnit>
+            <Arrow Para="check" List="运行;下行箭头;上行箭头"></Arrow>
+            <Function Para="num" List="0;100">1</Function>
+            <Audio Para="num" List="0;100">1</Audio>
+            <QuickLaunch Para="button" List=""></QuickLaunch>
+        </SodimasCAN>
+    </ProtocolInterface>
+</root>

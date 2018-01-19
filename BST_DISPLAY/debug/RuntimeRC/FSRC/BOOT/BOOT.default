@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+    <FileType>BST MDP File</FileType>
+    <CreateTime>2013-06-07 08:16:09</CreateTime>
+    <LastModiTime>2013-08-14 15:37:02</LastModiTime>
+    <CfgPara>
+        <Physical>
+            <CPU>
+                <Model Para="enum" List="N329xx;AM335x;DM3730;IMX6x">AM335X</Model>
+                <AutoRelease Para="bool">false</AutoRelease>
+                <Threshold Para="num" List="50;90">60</Threshold>
+            </CPU>
+            <MEM>
+                <Model Para="string">Sunsung 256M</Model>
+                <AutoRelease Para="bool">false</AutoRelease>
+                <Threshold Para="num" List="60;90">80</Threshold>
+            </MEM>
+            <NAND>
+                <Model Para="string">Kingston 512M</Model>
+                <ThemeCatalog Para="string">THEME</ThemeCatalog>
+                <Threshold Para="num" List="80;90">85</Threshold>
+            </NAND>
+            <MMC>
+                <ThemeCatalog Para="string">THEME/</ThemeCatalog>
+                <Threshold Para="num" List="0;99">80</Threshold>
+            </MMC>
+            <UDisk>
+                <ThemeCatalog Para="string">THEME/</ThemeCatalog>
+                <Threshold Para="num" List="0;99">80</Threshold>
+            </UDisk>
+            <RMII>
+                <IP Para="string">10.200.19.201</IP>
+                <Submask Para="string">255.255.0.0</Submask>
+                <Gateway Para="string">10.200.0.254</Gateway>
+                <DNS Para="string">10.200.0.1</DNS>
+                <DHCP Para="bool">false</DHCP>
+            </RMII>
+            <GPRS>
+                <Model Para="enum" List="ZTE3100">ZTE3100</Model>
+                <Buad Para="enum" List="9600;38400;57600;115200;125000">115200</Buad>
+            </GPRS>
+            <WIFI>
+                <Model Para="enum" List="RT3070;AR9271">RT3070</Model>
+                <Mode Para="enum" List="AP;Client">AP</Mode>
+                <ESSID Para="string">BST</ESSID>
+                <PASSWD Para="string">1234</PASSWD>
+                <IP Para="string">10.200.19.202</IP>
+                <Submask Para="string">255.255.0.0</Submask>
+                <Gateway Para="string">10.200.0.254</Gateway>
+                <DNS Para="string">10.200.0.1</DNS>
+                <DHCP Para="bool">false</DHCP>
+            </WIFI>
+            <Bluetooth>
+                <PIN Para="string" Desc="蓝牙的PIN Code">1234</PIN>
+            </Bluetooth>
+            <USBNET>
+                <IP Para="string">10.200.19.203</IP>
+                <Submask Para="string">255.255.0.0</Submask>
+                <Gateway Para="string">10.200.0.254</Gateway>
+                <DNS Para="string">10.200.0.1</DNS>
+                <DHCP Para="bool">false</DHCP>
+            </USBNET>
+            <RTC>
+                <DotBlink Para="bool" Desc="时钟与分钟之间的点闪烁">false</DotBlink>
+                <SecondEnable Para="bool">true</SecondEnable>
+            </RTC>
+            <Audio>
+                <Mode Para="enum" List="OSS;ALSA">ALSA</Mode>
+                <Volume Para="Num" List="0;127">0</Volume>
+            </Audio>
+            <LCD>
+                <OverLayer Para="check" List="0;1;2;3;4">0</OverLayer>
+                <Luminance Para="num" List="0;100">0</Luminance>
+                <DarkTimeout Para="num" List="0;1000000" Desc="自动设置屏幕亮度为DarkLevel">0</DarkTimeout>
+                <DarkLevel Para="enum" List="0;25;50;75" Desc="节能模式下的屏幕亮度">50</DarkLevel>
+            </LCD>
+            <Camera>
+                <Mode Para="check" List="YUV;MJPEG" Desc="可用的图像输出格式">MJPEG</Mode>
+                <Channel Para="check" List="0;1;2;3" Desc="可用的视频通道">0</Channel>
+                <MaxSize Para="enum" List="320x240;720x576;1024x768">320x240</MaxSize>
+            </Camera>
+            <NFC>
+                <Mode Para="check" List="Initiator;Target;CardTag;CardReader" Desc="可用的模式">CardReader</Mode>
+            </NFC>
+            <Mouse>
+                <Visible Para="bool">false</Visible>
+            </Mouse>
+            <Touch>
+                <Mode Para="enum" List="Resistance;Capacitance;Infrared;Ultrasonic;Optics">Ultrasonic</Mode>
+            </Touch>
+            <Keyboard>
+                <Mode Para="enum" List="Virtual;Machinery">Machinery</Mode>
+                <Pinyin Para="bool" Desc="支持中文拼音输入">false</Pinyin>
+            </Keyboard>
+            <Sodimas-SAF>
+                <Coincide Para="bool">false</Coincide>
+                <DooropenSound Para="bool">false</DooropenSound>
+                <Frame51 Para="enum" List="None;Floor;Inspection">None</Frame51>
+                <Frame51Timeout Para="num" List="1000;99999">5000</Frame51Timeout>
+                <Frame51Freq Para="num" List="1000;99999">2000</Frame51Freq>
+            </Sodimas-SAF>
+            <Sodimas-CAN>
+                <Port Para="enum" List="0;1;2;3;4;5;6;7;8;9">1</Port>
+                <Buad Para="enum" List="9600;115200;125000;250000">115200</Buad>
+            </Sodimas-CAN>
+            <BST-RS232>
+                <Port Para="enum" List="0;1;2;3;4;5;6;7;8;9">1</Port>
+                <Buad Para="enum" List="9600;115200;125000;250000">115200</Buad>
+                <DataLen Para="enum" List="5;6;7;8">8</DataLen>
+                <StopBit Para="enum" List="1;1.5;2">1</StopBit>
+                <Parity Para="enum" List="None;Odd;Even;Mark;Space">None</Parity>
+                <Flowcon Para="enum" List="None;HardWare;SoftWare">None</Flowcon>
+            </BST-RS232>
+            <Yungtay-RS485>
+                <Port Para="enum" List="0;1;2;3;4;5;6;7;8;9">2</Port>
+                <Buad Para="enum" List="9600;115200;125000;250000">115200</Buad>
+                <AutoDirection Para="bool" Desc="Whether has automatic direction control function?">false</AutoDirection>
+            </Yungtay-RS485>
+        </Physical>
+        <Logic>
+            <DLNA>
+                <Name Para="string">SHBST</Name>
+                <Port Para="num" List="49152;65535">60009</Port>
+                <MediaCatalog Para="string">/media/</MediaCatalog>
+                <DBCatalog Para="string">/db/</DBCatalog>
+            </DLNA>
+            <Bonjour>
+                <ScanEnable Para="bool">true</ScanEnable>
+                <Type Para="string" Desc="本机的服务类型">RemoteControl</Type>
+                <Name Para="string" Desc="本机的服务名">2号梯</Name>
+                <Port Para="num" List="49152;65535">60010</Port>
+            </Bonjour>
+            <FTP>
+                <Catalog Para="string" Desc="FTP根目录">/</Catalog>
+                <Passwd Para="string" Desc="FTP登陆密码">1234</Passwd>
+            </FTP>
+            <SSH>
+                <Passphrase Para="string" Desc="登陆口令">1234</Passphrase>
+            </SSH>
+            <Monitor>
+                <Size Para="string" Mode="link[MaxSize]"></Size>
+                <Audio Para="bool" Desc="是否包含音频流">false</Audio>
+                <TDM Para="num" List="0;60000" Desc="以时分复用方式采集可用通道，0表示仅采集固定通道">0</TDM>
+                <MotionAlarm Para="bool" Desc="检测到运动人体发送报警信号">false</MotionAlarm>
+                <Device Para="enum" List="Camera">Camera</Device>
+            </Monitor>
+            <VideoPhone>
+                <Size Para="string" Mode="link[MaxSize]"></Size>
+                <Video Para="bool" Desc="是否包含视频流">true</Video>
+                <Audio Para="bool" Desc="是否包含音频流">true</Audio>
+                <Device Para="enum" List="Camera">Camera</Device>
+            </VideoPhone>
+            <CardReader>
+                <CardMode Para="check" List="ISO14443A;ISO14443B;FELICA212;FELICA424;JEWEL">ISO14443A;ISO14443B</CardMode>
+                <KeyAlarm Para="string" Desc="监测到此关键字时发出报警"></KeyAlarm>
+                <Device Para="enum" List="NFC">NFC</Device>
+            </CardReader>
+            <AutoConnect>
+                <Device Para="check" List="NFC;WIFI">NFC;WIFI</Device>
+            </AutoConnect>
+            <Evevator>
+                <StationTalk Para="enum" List="Forbid;Enable;Negation">Forbid</StationTalk>
+                <StationArrive Para="enum" List="Forbid;Enable;Negation">Forbid</StationArrive>
+                <Device Para="enum" List="Sodimas-SAF;Sodimas-CAN;BST-RS232;BST-CAN;Yungtay-RS485"></Device>
+            </Evevator>
+            <ThemeManager>
+                <Location Para="string" Desc="本主题在桌面Grid布局中的行列">0x0</Location>
+                <Resolution Para="enum" List="480x272;800x480;1024x768;1280x800;1360x768;1680x1050;1920x1080">800x480</Resolution>
+                <Rotation Para="enum" List="0;90;180;270">0</Rotation>
+                <RenderDev Para="enum" List="QPainter;OpenGL;GDI+;Driect2D;XV">QPainter</RenderDev>
+                <ActiveTheme Para="enum" Mode="link[ThemeCatalog]"></ActiveTheme>
+                <Device Para="enum" List="NAND;MMC;UDisk"></Device>
+            </ThemeManager>
+            <ContentUpdates>
+                <Device Para="check" List="MMC;UDisk;RMII;WIFI;Sodimas-CAN"></Device>
+            </ContentUpdates>
+            <NetManager>
+                <DebugMode Para="bool" Desc="是否开启调试模式">false</DebugMode>
+                <BroadcastPort Para="num" List="49152;65535" Desc="广播服务端口号"></BroadcastPort>
+                <MulticastPort Para="num" List="49152;65535" Desc="组播服务端口号"></MulticastPort>
+                <UnicastPort Para="num" List="49152;65535" Desc="单播服务端口号"></UnicastPort>
+                <Device Para="check" List="RMII;GPRS;WIFI;NFC;Bluetooth;Sodimas-CAN"></Device>
+            </NetManager>
+        </Logic>
+    </CfgPara>
+</root>

@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManufacturePage</class>
+ <widget class="QWidget" name="ManufacturePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>565</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+   <item>
+    <widget class="QSplitter" name="splitter_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QSplitter" name="splitter_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QGroupBox" name="ConnectGroupBox">
+       <property name="minimumSize">
+        <size>
+         <width>150</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>300</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="title">
+        <string>Connect</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <property name="spacing">
+         <number>2</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>4</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="BtnScan">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Connect</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../IDE.qrc">
+            <normaloff>:/Menu/rc/Menu/deviceoffline.png</normaloff>:/Menu/rc/Menu/deviceoffline.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>30</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="BootSelectGroupBox">
+          <property name="title">
+           <string>Boot Select</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QRadioButton" name="RadioUSB">
+             <property name="text">
+              <string>USB</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="RadioTF">
+             <property name="text">
+              <string>TF/SD</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="RunGroupBox">
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <property name="spacing">
+            <number>2</number>
+           </property>
+           <property name="margin">
+            <number>2</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="BtnStart">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="../IDE.qrc">
+               <normaloff>:/Menu/rc/Menu/build.png</normaloff>:/Menu/rc/Menu/build.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="BtnPause">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="../IDE.qrc">
+               <normaloff>:/Menu/rc/Menu/pause.png</normaloff>:/Menu/rc/Menu/pause.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="BtnStop">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="../IDE.qrc">
+               <normaloff>:/Menu/rc/Menu/stop.png</normaloff>:/Menu/rc/Menu/stop.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QGroupBox" name="OperateGroupbox">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="title">
+        <string>Operation</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <property name="spacing">
+         <number>2</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>2</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QPlainTextEdit" name="LogBrowser"/>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <property name="spacing">
+            <number>2</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>2</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QPushButton" name="BtnDownload">
+               <property name="text">
+                <string>Download</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../IDE.qrc">
+                 <normaloff>:/Menu/rc/Menu/down.png</normaloff>:/Menu/rc/Menu/down.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="BtnSetBootargs">
+               <property name="text">
+                <string>Bootargs</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../IDE.qrc">
+                 <normaloff>:/Menu/rc/Menu/toolView.png</normaloff>:/Menu/rc/Menu/toolView.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <property name="spacing">
+              <number>2</number>
+             </property>
+             <item>
+              <widget class="QPlainTextEdit" name="SendTextEdit">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="plainText">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_6">
+               <property name="spacing">
+                <number>2</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="BtnSetBootargs_2">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>SaveEnv</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../IDE.qrc">
+                   <normaloff>:/Menu/rc/Menu/save.png</normaloff>:/Menu/rc/Menu/save.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>20</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="BtnSendCmd">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Send</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../IDE.qrc">
+                   <normaloff>:/Menu/rc/Menu/next.png</normaloff>:/Menu/rc/Menu/next.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>20</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="RcGroupBox">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>4</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>4</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_21">
+         <item>
+          <widget class="QLabel" name="label_13">
+           <property name="minimumSize">
+            <size>
+             <width>160</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>200</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Please select the BufferPath:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="BufferPathEdit">
+           <property name="text">
+            <string>C:/</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QToolButton" name="BtnBufferPathSelect">
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>...</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QSplitter" name="RcSplitter">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QGroupBox" name="BootloaderGroupBox">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="title">
+           <string>Step1:Bootloader</string>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_6">
+           <item row="0" column="0">
+            <widget class="RcTree" name="BootloaderList">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <column>
+              <property name="text">
+               <string>Type</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Menu/rc/Menu/rss.png</normaloff>:/Menu/rc/Menu/rss.png</iconset>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Location</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Menu/rc/Menu/open.png</normaloff>:/Menu/rc/Menu/open.png</iconset>
+              </property>
+             </column>
+             <item>
+              <property name="text">
+               <string>DataBase</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Menu/rc/Menu/netView.png</normaloff>:/Menu/rc/Menu/netView.png</iconset>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>LocalDisk</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Page/rc/Page/rc.png</normaloff>:/Page/rc/Page/rc.png</iconset>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QGroupBox" name="KernelGroupBox">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="title">
+           <string>Step2:Kernel</string>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_7">
+           <item row="0" column="0">
+            <widget class="RcTree" name="KernelList">
+             <column>
+              <property name="text">
+               <string>Type</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Menu/rc/Menu/rss.png</normaloff>:/Menu/rc/Menu/rss.png</iconset>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Location</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Menu/rc/Menu/open.png</normaloff>:/Menu/rc/Menu/open.png</iconset>
+              </property>
+             </column>
+             <item>
+              <property name="text">
+               <string>DataBase</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Menu/rc/Menu/netView.png</normaloff>:/Menu/rc/Menu/netView.png</iconset>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>LocalDisk</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Page/rc/Page/rc.png</normaloff>:/Page/rc/Page/rc.png</iconset>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QGroupBox" name="FilesystemGroupBox">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="title">
+           <string>Step3:FileSystem</string>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_8">
+           <item row="0" column="0">
+            <widget class="RcTree" name="FileSystemList">
+             <column>
+              <property name="text">
+               <string>Type</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Menu/rc/Menu/rss.png</normaloff>:/Menu/rc/Menu/rss.png</iconset>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Location</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Menu/rc/Menu/open.png</normaloff>:/Menu/rc/Menu/open.png</iconset>
+              </property>
+             </column>
+             <item>
+              <property name="text">
+               <string>DataBase</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Menu/rc/Menu/netView.png</normaloff>:/Menu/rc/Menu/netView.png</iconset>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>LocalDisk</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Page/rc/Page/rc.png</normaloff>:/Page/rc/Page/rc.png</iconset>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QGroupBox" name="ApplicationGroupBox">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="title">
+           <string>Step4:Application</string>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_9">
+           <item row="0" column="0">
+            <widget class="RcTree" name="ApplicationList">
+             <column>
+              <property name="text">
+               <string>Type</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Menu/rc/Menu/rss.png</normaloff>:/Menu/rc/Menu/rss.png</iconset>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Location</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Menu/rc/Menu/open.png</normaloff>:/Menu/rc/Menu/open.png</iconset>
+              </property>
+             </column>
+             <item>
+              <property name="text">
+               <string>Database</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Menu/rc/Menu/netView.png</normaloff>:/Menu/rc/Menu/netView.png</iconset>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>LocalDisk</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../IDE.qrc">
+                <normaloff>:/Page/rc/Page/rc.png</normaloff>:/Page/rc/Page/rc.png</iconset>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>RcTree</class>
+   <extends>QTreeWidget</extends>
+   <header location="global">rctree.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../IDE.qrc"/>
+ </resources>
+ <connections/>
+</ui>

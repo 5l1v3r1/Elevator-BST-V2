@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProWizard</class>
+ <widget class="QWizard" name="ProWizard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>442</width>
+    <height>298</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Wizard</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <widget class="QWizardPage" name="wizardPage1">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../IDE.qrc">:/Page/rc/Page/ProWizardGreet.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QListWidget" name="listWidget_8">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>Project Info</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+           <underline>true</underline>
+          </font>
+         </property>
+         <property name="background">
+          <brush brushstyle="NoBrush">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Menu/rc/Menu/solution.png</normaloff>:/Menu/rc/Menu/solution.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ui Info</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Page/rc/Page/ui.png</normaloff>:/Page/rc/Page/ui.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Map Info</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Menu/rc/Menu/map.png</normaloff>:/Menu/rc/Menu/map.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mdp Info</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Page/rc/Page/mdp.png</normaloff>:/Page/rc/Page/mdp.png</iconset>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="title">
+         <string>Project Information</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>Project</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="ProjPath">
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QToolButton" name="Browser">
+           <property name="text">
+            <string>...</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="3">
+          <spacer name="verticalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWizardPage" name="wizardPage2">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../IDE.qrc">:/Page/rc/Page/ProWizardGreet.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QListWidget" name="listWidget_10">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>Project Info</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Menu/rc/Menu/solution.png</normaloff>:/Menu/rc/Menu/solution.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ui Info</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+           <underline>true</underline>
+          </font>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Page/rc/Page/ui.png</normaloff>:/Page/rc/Page/ui.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Map Info</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Menu/rc/Menu/map.png</normaloff>:/Menu/rc/Menu/map.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mdp Info</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Page/rc/Page/mdp.png</normaloff>:/Page/rc/Page/mdp.png</iconset>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="title">
+         <string>UI Information</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>UiName</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1" colspan="3">
+          <widget class="QLineEdit" name="UiName"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_13">
+           <property name="text">
+            <string>UiSize</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="UiSizeW">
+           <property name="echoMode">
+            <enum>QLineEdit::Normal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>x</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <widget class="QLineEdit" name="UiSizeH">
+           <property name="echoMode">
+            <enum>QLineEdit::Normal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>39</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWizardPage" name="wizardPage">
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../IDE.qrc">:/Page/rc/Page/ProWizardGreet.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QListWidget" name="listWidget_14">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>Project Info</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Menu/rc/Menu/solution.png</normaloff>:/Menu/rc/Menu/solution.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ui Info</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Page/rc/Page/ui.png</normaloff>:/Page/rc/Page/ui.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Map Info</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+           <underline>true</underline>
+          </font>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Menu/rc/Menu/map.png</normaloff>:/Menu/rc/Menu/map.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mdp Info</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Page/rc/Page/mdp.png</normaloff>:/Page/rc/Page/mdp.png</iconset>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="title">
+         <string>MAP Information</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_6">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string>MapName</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLineEdit" name="MapName"/>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <spacer name="verticalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>39</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWizardPage" name="wizardPage_2">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../IDE.qrc">:/Page/rc/Page/ProWizardGreet.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QListWidget" name="listWidget_11">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>Project Info</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Menu/rc/Menu/solution.png</normaloff>:/Menu/rc/Menu/solution.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ui Info</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Page/rc/Page/ui.png</normaloff>:/Page/rc/Page/ui.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Map Info</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Menu/rc/Menu/map.png</normaloff>:/Menu/rc/Menu/map.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mdp Info</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+           <underline>true</underline>
+          </font>
+         </property>
+         <property name="icon">
+          <iconset resource="../IDE.qrc">
+           <normaloff>:/Page/rc/Page/mdp.png</normaloff>:/Page/rc/Page/mdp.png</iconset>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="title">
+         <string>MDP Information</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label__4">
+           <property name="text">
+            <string>MdpName</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="MdpName">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_14">
+           <property name="text">
+            <string>NickName</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="NickName">
+           <property name="echoMode">
+            <enum>QLineEdit::Normal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>Password</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="Password">
+           <property name="echoMode">
+            <enum>QLineEdit::PasswordEchoOnEdit</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../IDE.qrc"/>
+ </resources>
+ <connections/>
+</ui>

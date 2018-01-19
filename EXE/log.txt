@@ -1,0 +1,22 @@
+Debug: exe: D:\MyProject\IDE\EXE\player.exe
+Debug: vo: 
+Debug: 35 x 140
+Warning: Object::connect: No such slot MainWindow::setup() in MainWindow.cpp:226
+Debug: QtAV 1.2.2(Jul 15 2013, 17:55:25)
+基于 Qt 和 FFmpeg 的音视频播放库.
+Distributed under the terms of LGPLv2.1 or later.
+Copyright (C) 2012-2013 Wang Bin (aka. Lucas Wang) wbsecg1@gmail.com
+上海大学，中国上海
+源码: https://github.com/wang-bin/QtAV
+下载: https://sourceforge.net/projects/qtav
+Debug: player created
+Debug: >>>>>>>>>>setRenderer
+Debug: avthread not ready. can not set output.
+Debug: resizeRenderer after setRenderer
+Debug: out rect: 0.000000 0x0 ==>
+Debug: 0.000000 0x320 <<<<<<<<
+Debug: add renderer to layout
+Debug: MainWindow.cpp setRenderer @401
+Debug: out rect: 0.000000 0x320 ==>
+Debug: 0.000000 0x330 <<<<<<<<
+Debug: 0xf84 VideoCapture.cpp ~VideoCapture

@@ -1,0 +1,36 @@
+.margin_bottom_1 {
+	BORDER-BOTTOM: #ff2a43 0.1em solid; WIDTH: 100%; HEIGHT: 1px; CLEAR: both; FONT-SIZE: 1px; OVERFLOW: hidden
+}
+#slider {
+	POSITION: relative; WIDTH: 990px; HEIGHT: 383px; OVERFLOW: hidden
+}
+#slider IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; LEFT: 0px
+}
+#sliderContent {
+	POSITION: absolute; WIDTH: 990px; MARGIN-LEFT: 0px; TOP: 0px
+}
+.sliderImage {
+	POSITION: relative; WIDTH: 990px; DISPLAY: none; FLOAT: left; HEIGHT: 483px; MARGIN-LEFT: 0px; LEFT: 0px
+}
+.sliderImage IMG {
+	POSITION: relative; FLOAT: left; MARGIN-LEFT: 0px; LEFT: 0px
+}
+.sliderImage SPAN {
+	POSITION: absolute; FILTER: alpha(opacity=60); PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #000; PADDING-LEFT: 9px; WIDTH: 990px; PADDING-RIGHT: 9px; DISPLAY: none; FONT: 14px/46px 微软雅黑,sans-serif; LETTER-SPACING: 0.3mm; HEIGHT: 58px; COLOR: #fff; PADDING-TOP: 1px; -moz-opacity: 0.5; -khtml-opacity: 0.5; opacity: 0.5
+}
+.clear {
+	CLEAR: both
+}
+.sliderImage SPAN STRONG {
+	FONT-SIZE: 80%
+}
+.top {
+	TOP: 0px; LEFT: 0px
+}
+.bottom {
+	BOTTOM: 0px; LEFT: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}

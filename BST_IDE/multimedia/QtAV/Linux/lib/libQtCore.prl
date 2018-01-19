@@ -1,0 +1,7 @@
+QMAKE_PRL_BUILD_DIR = /AM335X/qt-everywhere-opensource-src-4.8.2/src/corelib/
+QMAKE_PRO_INPUT = corelib.pro
+QMAKE_PRL_TARGET = libQtCore.so.4.8.2
+QMAKE_PRL_DEFINES = QT_SHARED
+QMAKE_PRL_CONFIG = lex yacc warn_on uic resources qt warn_on release incremental link_prl def_files_disabled no_mocdepend release stl qt_no_framework cross_compile release shared dll embedded stl precompile_header neon exceptions_off dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols create_pc create_libtool explicitlib moc thread shared dll
+QMAKE_PRL_VERSION = 4.8.2
+QMAKE_PRL_LIBS = -L/opt/qt_4.8.2_es1/lib -L/AM335X/SDK/gfx_dbg_es8.x -L/freescale/IMX53/ltib/rootfs/usr/lib  -lEGL -lGLES_CM -lIMGegl -lsrv_um -lusc -lglib-2.0 -lgthread-2.0 -lgstreamer-0.10 -lxml2 -lz -lgmodule-2.0 -lgobject-2.0 -lfreetype -lpthread 

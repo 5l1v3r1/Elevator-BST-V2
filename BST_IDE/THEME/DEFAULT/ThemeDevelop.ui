@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <FileType>BST UI File</FileType>
+    <CreateTime>2013-11-24 20:30:49</CreateTime>
+    <LastModiTime>2013-11-24 20:30:49</LastModiTime>
+    <Direction>HV</Direction>
+    <Ui>
+        <SubUI>
+            <CloseBtn>
+                <Rect>
+                    <Horizontal>185,292,272,257</Horizontal>
+                    <Vertical>0,0,272,257</Vertical>
+                </Rect>
+                <StateMachine>
+                    <Common EffectType="Image">
+                        <RC0>CloseBtn/Common/Image/Sunset.png</RC0>
+                    </Common>
+                    <Press EffectType="Invalid"/>
+                    <Release EffectType="Invalid"/>
+                </StateMachine>
+            </CloseBtn>
+            <Logo>
+                <Rect>
+                    <Horizontal>480,48,320,312</Horizontal>
+                    <Vertical>0,0,320,312</Vertical>
+                </Rect>
+                <StateMachine>
+                    <Common EffectType="Image">
+                        <RC0>Logo/Common/Image/Water lilies.png</RC0>
+                    </Common>
+                    <Change EffectType="Invalid"/>
+                    <Steady EffectType="Invalid"/>
+                </StateMachine>
+            </Logo>
+            <Function>
+                <Rect>
+                    <Horizontal>0,0,348,258</Horizontal>
+                    <Vertical>0,0,348,258</Vertical>
+                </Rect>
+                <StateMachine>
+                    <Common EffectType="Image">
+                        <RC0>Function/Common/Image/Winter.png</RC0>
+                        <RC1>Function/Common/Image/Sunset.png</RC1>
+                        <RC7>Function/Common/Image/Water lilies.png</RC7>
+                    </Common>
+                    <Change EffectType="Invalid"/>
+                    <Steady EffectType="Invalid"/>
+                </StateMachine>
+            </Function>
+        </SubUI>
+        <Desktop>
+            <Rect>
+                <Horizontal>0,0,800,600</Horizontal>
+                <Vertical>0,0,600,800</Vertical>
+            </Rect>
+            <StateMachine>
+                <Common EffectType="Image">
+                    <RC0>Desktop/Common/Image/Winter.png</RC0>
+                </Common>
+                <Change EffectType="Invalid"/>
+            </StateMachine>
+        </Desktop>
+    </Ui>
+</root>

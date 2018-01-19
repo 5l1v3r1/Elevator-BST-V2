@@ -1,0 +1,5 @@
+QMAKE_PRL_BUILD_DIR = /workspace/qdevicewatcher-master/src
+QMAKE_PRO_INPUT = libQDeviceWatcher.pro
+QMAKE_PRL_TARGET = libQDeviceWatcher.so.2.0.0
+QMAKE_PRL_CONFIG = lex yacc warn_on debug uic resources qt warn_on incremental link_prl gdb_dwarf_index def_files_disabled exceptions no_mocdepend stl qt_no_framework debug declarative_debug qdevicewatcher-buildlib profile depend_includepath create_prl shared dll shared moc thread
+QMAKE_PRL_VERSION = 2.0.0

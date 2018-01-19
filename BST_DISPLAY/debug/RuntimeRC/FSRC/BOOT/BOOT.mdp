@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+    <FileType>BST MDP File</FileType>
+    <CreateTime>2013-06-07 08:16:09</CreateTime>
+    <LastModiTime>2013-11-15 14:17:00</LastModiTime>
+    <CfgPara>
+        <Physical>
+            <Disk>
+                <Model Para="string">Kingston 512M</Model>
+                <ThemeCatalog Para="string">THEME</ThemeCatalog>
+                <Threshold Para="num" List="80;90">85</Threshold>
+            </Disk>
+            <RMII>
+                <IP Para="string">10.200.19.201</IP>
+                <Submask Para="string">255.255.0.0</Submask>
+                <Gateway Para="string">10.200.0.254</Gateway>
+                <DNS Para="string">10.200.0.1</DNS>
+                <DHCP Para="bool">false</DHCP>
+            </RMII>
+            <LCD>
+                <OverLayer Para="check" List="0;1;2;3;4">0</OverLayer>
+                <Luminance Para="num" List="0;100">0</Luminance>
+                <DarkTimeout Para="num" Desc="自动设置屏幕亮度为DarkLevel" List="0;1000000">0</DarkTimeout>
+                <DarkLevel Para="enum" Desc="节能模式下的屏幕亮度" List="0;25;50;75">50</DarkLevel>
+            </LCD>
+        </Physical>
+        <Logic>
+            <ThemeManager>
+                <Location Para="string" Desc="本主题在桌面Grid布局中的行列">0x0</Location>
+                <Resolution Para="enum" List="480x272;800x600;1024x768;1280x800;1360x768;1680x1050;1920x1080">800x600</Resolution>
+                <Rotation Para="enum" List="0;90;180;270">0</Rotation>
+                <RenderDev Para="enum" List="QPainter;OpenGL;GDI+;Driect2D;XV">QPainter</RenderDev>
+                <ActiveTheme Para="enum" Mode="link[ThemeCatalog]"/>
+                <Device Para="enum" List="NAND;MMC;UDisk"></Device>
+            </ThemeManager>
+            <NetDiscovery>
+                <BroadcastPort Para="num" List="49152;65535"/>
+                <MulticastPort Para="num" List="49152;65535"/>
+                <UnicastPort Para="num" List="49152;65535"/>
+                <Device Para="check" List="RMII;GPRS;WIFI;NFC;Bluetooth;Sodimas-CAN">RMII</Device>
+            </NetDiscovery>
+            <NetManager>
+                <Device Para="check" List="RMII;GPRS;WIFI;NFC;Bluetooth;Sodimas-CAN">RMII</Device>
+            </NetManager>
+        </Logic>
+    </CfgPara>
+</root>

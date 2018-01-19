@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>userManagerForm</class>
+ <widget class="QWidget" name="userManagerForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>649</width>
+    <height>510</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QTreeWidget" name="treeWidget">
+      <column>
+       <property name="text">
+        <string>UserType</string>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>Administrator</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ResearchPersonnel</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>MainboardDesigner</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>InterfaceBoardDesigner</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TestEngineer</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>ProductionPersonnel</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string comment="销售人员" extracomment="销售人员">SalesPersonnel</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string comment="物料人员" extracomment="物料人员">MaterialPersonnel</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QComboBox" name="comboBox"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../IDE.qrc">
+             <normaloff>:/Menu/rc/Menu/plus.png</normaloff>:/Menu/rc/Menu/plus.png</iconset>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../IDE.qrc">
+             <normaloff>:/Menu/rc/Menu/minus.png</normaloff>:/Menu/rc/Menu/minus.png</iconset>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../IDE.qrc">
+             <normaloff>:/Menu/rc/Menu/refresh.png</normaloff>:/Menu/rc/Menu/refresh.png</iconset>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../IDE.qrc">
+             <normaloff>:/Menu/rc/Menu/delete.png</normaloff>:/Menu/rc/Menu/delete.png</iconset>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../IDE.qrc"/>
+ </resources>
+ <connections/>
+</ui>

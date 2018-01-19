@@ -1,0 +1,52 @@
+2012-8-7:
+1、将Global类中的m_ComElementGroup的放入uiManager类中，保证使用uiManager类对象时使用的是自己的m_ComElementGroup，防止创建多个ui页面时出错。
+2、使用Flip特效时不要使用png图片，否则会覆盖一半图片的bug。
+3、if(tmpCRC != (tmpValue&0x7f))
+   注意，tmpCRC不能进行符合运算，特别是在堆栈比较小的情况下，但tmpValue可以做复合运算。
+4、待解决bug：
+
+5、#define D_INVALIDTIME   18446744073709551614ULL  ULongLong类型需要在后面添加ULL
+
+void devicelistform::StopScanThread()
+{
+    if(mScanDevThread != 0)
+    {
+        if (mScanDevThread->isRunning())
+        {
+            mScanDevThread->Stop();
+            if (QThread::currentThread() != mScanDevThread)
+                mScanDevThread->wait();
+        }
+    }
+}
+
+
+    //>@查看是否有与此相同的主题名，有即覆盖，无则增加，并设置有效主题为pThemeName
+    bool hasSameTheme = false;
+    QString tmpThemeListString = itemElement.attribute("List");
+    QStringList tmpThemeList = tmpThemeListString.split(";");
+    for(int i=0;i<tmpThemeList.count();i++)
+    {
+        QString tmpThemeString = tmpThemeList.at(i);
+        IDE_TRACE_STR(tmpThemeString);
+        if(pThemeName.compare(tmpThemeString, Qt::CaseInsensitive) == 0)
+        {
+            hasSameTheme = true;
+            if(!ModifyItemElement(itemElement, pThemeName))
+            {
+                m_IsChanged = false;
+                return false;
+            }
+            break;
+        }
+    }
+    if(hasSameTheme == false)
+    {
+        QString tmpString = tmpThemeListString.append(QString(";%1").arg(pThemeName));
+        itemElement.setAttribute("List", tmpString);
+        if(!ModifyItemElement(itemElement, pThemeName))
+        {
+            m_IsChanged = false;
+            return false;
+        }
+    }

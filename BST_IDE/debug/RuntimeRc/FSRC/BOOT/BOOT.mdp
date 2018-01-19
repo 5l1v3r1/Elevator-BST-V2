@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+    <FileType>BST MDP File</FileType>
+    <CreateTime>2013-03-22 18:21:31</CreateTime>
+    <LastModiTime>2013-04-26 17:03:45</LastModiTime>
+    <CfgPara>
+        <System>
+            <Net>
+                <ActiveNet Para="enum" List="eth0;ra0;usb0;ppp0">eth0</ActiveNet>
+                <Logic Para="check" List="L_DHCP;L_Ftp;L_Telnet;L_SSH;L_SMS;L_NFD;L_BCR">L_SMS;L_DHCP;L_SSH;L_NFD;L_BCR</Logic>
+            </Net>
+            <Cpu>
+                <Model Para="string">AM335X</Model>
+                <Username Para="string">jwj</Username>
+                <Logic Para="enum" List="L_FreeCpuLoad">L_FreeCpuLoad</Logic>
+            </Cpu>
+            <Mem>
+                <Model Para="string">Kingston 512M</Model>
+                <Logic Para="enum" List="L_FreeMem">L_FreeMem</Logic>
+            </Mem>
+        </System>
+        <Storage>
+            <TFlash>
+                <Theme Para="Logic" List="BVT12223;BVT121;">BVT121</Theme>
+                <Logic Para="enum" List="L_ThemeOP">L_ThemeOP</Logic>
+            </TFlash>
+            <UDisk0>
+                <Logic Para="enum" List="L_Upgrade;L_ThemeOP">L_Upgrade</Logic>
+            </UDisk0>
+        </Storage>
+        <Screen>
+            <LCD>
+                <Channel Para="check" List="VGA;LVDS">LVDS;VGA</Channel>
+                <Resolution Para="enum" List="320x240;400x240;640x480;800x480;800x600;1024x600;1024x768;1280x720;1280x768;1280x800;1152x864;1366x768;1280x1024;1280x960;1400x900;1400x1050;1680x1050;1600x1200;1920x1200;2048x1536;2560x1536">1366x768</Resolution>
+                <Rotate Para="enum" List="00;90;180;270">0</Rotate>
+                <Luminance Para="num">47</Luminance>
+                <EnergySave Para="num">65535</EnergySave>
+                <Sound Para="num">72</Sound>
+                <Logic Para="enum"></Logic>
+            </LCD>
+            <USBCAM>
+                <InputChannel Para="check" List="0;1;2;3">0</InputChannel>
+                <Resolution Para="enum" List="320x240;480x272;640x480;800x480;800x600;1024x768">320x240</Resolution>
+                <Logic Para="enum" List="L_Monitor;L_Identify">L_Monitor</Logic>
+            </USBCAM>
+        </Screen>
+        <Network>
+            <USBNFC/>
+            <RMII0>
+                <IP Para="string">10.200.19.201</IP>
+                <Submask Para="string">255.255.255.0</Submask>
+                <Gateway Para="string">10.200.0.254</Gateway>
+                <DNS Para="string">10.200.0.1</DNS>
+                <Logic Para="enum"></Logic>
+            </RMII0>
+            <USBGPRS>
+                <Buad Para="enum" List="110;300;600;1200;2400;4800;9600;14400;19200;38400;56000;57600;115200;256000">115200</Buad>
+                <IP Para="string">192.168.0.2</IP>
+                <Submask Para="string">255.255.255.0</Submask>
+                <Gateway Para="string">192.168.0.1</Gateway>
+                <DNS Para="string">192.168.0.1</DNS>
+                <Logic Para="enum"></Logic>
+            </USBGPRS>
+            <USBWIFI>
+                <IP Para="string">192.168.1.2</IP>
+                <Submask Para="string">255.255.255.0</Submask>
+                <Gateway Para="string">192.168.0.1</Gateway>
+                <DNS Para="string">192.168.0.1</DNS>
+                <Logic Para="enum"></Logic>
+            </USBWIFI>
+            <USBSLAVE>
+		<Mode Para="enum" List="Net;Storage">Net</Mode>
+                <IP Para="string">192.168.2.2</IP>
+                <Submask Para="string">255.255.255.0</Submask>
+                <Gateway Para="string">192.168.0.1</Gateway>
+                <DNS Para="string">192.168.0.1</DNS>
+                <Logic Para="enum"></Logic>
+            </USBSLAVE>
+        </Network>
+        <Serial>
+            <Com4>
+                <Buad Para="enum" List="110;300;600;1200;2400;4800;9600;14400;19200;38400;56000;57600;115200;256000">115200</Buad>
+                <DataLen Para="enum" List="5;6;7;8">8</DataLen>
+                <StopBit Para="enum" List="1;1.5;2">1</StopBit>
+                <Parity Para="enum" List="None;Odd;Even;Mark;Space">None</Parity>
+                <Flowcon Para="enum" List="None;HardWare;SoftWare">None</Flowcon>
+                <Logic Para="check" List="L_IB;L_UT">L_IB</Logic>
+            </Com4>
+        </Serial>
+        <IOControl/>
+    </CfgPara>
+</root>

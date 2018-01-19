@@ -1,0 +1,5 @@
+QMAKE_PRL_BUILD_DIR = /tmp/QtAV/src/
+QMAKE_PRO_INPUT = libQtAV.pro
+QMAKE_PRL_TARGET = libQtAV.so.1.1.11
+QMAKE_PRL_CONFIG = lex yacc warn_on uic resources qt warn_on release incremental link_prl gdb_dwarf_index def_files_disabled exceptions no_mocdepend release stl qt_no_framework config_avutil done_config_avutil config_avcodec done_config_avcodec config_avformat done_config_avformat config_swscale done_config_swscale config_portaudio done_config_portaudio done_config_direct2d done_config_gdiplus qtav-buildlib profile depend_includepath create_prl shared dll shared moc thread opengl
+QMAKE_PRL_VERSION = 1.1.11

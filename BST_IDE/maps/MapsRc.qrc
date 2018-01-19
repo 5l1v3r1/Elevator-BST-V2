@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/MapsRc">
+        <file>MapsRc/baidumaps.html</file>
+        <file>MapsRc/gaodemaps.html</file>
+        <file>MapsRc/googlemaps.html</file>
+    </qresource>
+</RCC>

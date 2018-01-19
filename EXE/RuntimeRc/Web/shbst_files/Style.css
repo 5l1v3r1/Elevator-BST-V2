@@ -1,0 +1,162 @@
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(images/bg.gif) #f9f9f9 repeat-y center 50%; COLOR: #656565; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+TD {
+	LINE-HEIGHT: 150%; FONT-FAMILY: 宋体,arial; COLOR: #656565; FONT-SIZE: 12px
+}
+A:link {
+	COLOR: #656565; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #656565; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #656565; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.menuon:link {
+	WIDTH: 122px; FONT-FAMILY: 宋体,arial; BACKGROUND: url(images/tbg04.gif); FLOAT: left; HEIGHT: 24px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bolder; TEXT-DECORATION: none; PADDING-TOP: 12px
+}
+.menuon:visited {
+	WIDTH: 122px; FONT-FAMILY: 宋体,arial; BACKGROUND: url(images/tbg04.gif); FLOAT: left; HEIGHT: 24px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bolder; TEXT-DECORATION: none; PADDING-TOP: 12px
+}
+.menuon {
+	WIDTH: 122px; FONT-FAMILY: 宋体,arial; BACKGROUND: url(images/tbg04.gif); FLOAT: left; HEIGHT: 24px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bolder; TEXT-DECORATION: none; PADDING-TOP: 12px
+}
+.menuon:hover {
+	WIDTH: 122px; FONT-FAMILY: 宋体,arial; BACKGROUND: url(images/tbg04.gif); FLOAT: left; HEIGHT: 24px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bolder; TEXT-DECORATION: none; PADDING-TOP: 12px
+}
+.menuoff:link {
+	WIDTH: 122px; FONT-FAMILY: 宋体,arial; FLOAT: left; HEIGHT: 24px; COLOR: #656565; FONT-SIZE: 12px; FONT-WEIGHT: bolder; TEXT-DECORATION: none; PADDING-TOP: 12px
+}
+.menuoff:visited {
+	WIDTH: 122px; FONT-FAMILY: 宋体,arial; FLOAT: left; HEIGHT: 24px; COLOR: #656565; FONT-SIZE: 12px; FONT-WEIGHT: bolder; TEXT-DECORATION: none; PADDING-TOP: 12px
+}
+.menuoff {
+	WIDTH: 122px; FONT-FAMILY: 宋体,arial; FLOAT: left; HEIGHT: 24px; COLOR: #656565; FONT-SIZE: 12px; FONT-WEIGHT: bolder; TEXT-DECORATION: none; PADDING-TOP: 12px
+}
+.menuoff:hover {
+	WIDTH: 122px; FONT-FAMILY: 宋体,arial; BACKGROUND: url(images/tbg04.gif); FLOAT: left; HEIGHT: 24px; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bolder; TEXT-DECORATION: none; PADDING-TOP: 12px
+}
+.white:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.white:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.white {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.white:hover {
+	COLOR: #1bb4ff; TEXT-DECORATION: none
+}
+.yellow:link {
+	COLOR: #ecb86f; TEXT-DECORATION: none
+}
+.yellow:visited {
+	COLOR: #ecb86f; TEXT-DECORATION: none
+}
+.yellow {
+	COLOR: #ecb86f
+}
+.yellow:hover {
+	COLOR: #ff9500; TEXT-DECORATION: underline
+}
+.grey {
+	FONT-FAMILY: "宋体,arial"; COLOR: #999999; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.grey:link {
+	FONT-FAMILY: "宋体,arial"; COLOR: #999999; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.grey:visited {
+	FONT-FAMILY: "宋体,arial"; COLOR: #999999; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.grey:hover {
+	FONT-FAMILY: "宋体,arial"; COLOR: #0071ce; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.red:link {
+	COLOR: #ce0000; TEXT-DECORATION: none
+}
+.red:visited {
+	COLOR: #ce0000
+}
+.red {
+	COLOR: #ce0000
+}
+.red:hover {
+	COLOR: #ce0000
+}
+.blue:link {
+	COLOR: #035a9d; TEXT-DECORATION: none
+}
+.blue:visited {
+	COLOR: #035a9d
+}
+.blue {
+	COLOR: #035a9d
+}
+.blue:hover {
+	COLOR: #0084ff
+}
+.green:link {
+	COLOR: #006600; TEXT-DECORATION: none
+}
+.green:visited {
+	COLOR: #006600
+}
+.green {
+	COLOR: #006600
+}
+.green:hover {
+	COLOR: #ff6600
+}
+.size1 {
+	LINE-HEIGHT: 22px; FONT-FAMILY: "Lucida Grande", Helvetica, Arial, sans-serif; COLOR: #111; WORD-BREAK: break-all
+}
+.size2 {
+	LINE-HEIGHT: 180%; FONT-FAMILY: 宋体,arial; WORD-BREAK: break-all
+}
+.size3 {
+	FONT-FAMILY: 宋体,arial; COLOR: #656565; FONT-SIZE: 14px
+}
+.size4 {
+	LINE-HEIGHT: 150%; FONT-FAMILY: 宋体,arial; COLOR: #656565; FONT-SIZE: 14px; FONT-WEIGHT: bolder
+}
+.size5 {
+	LINE-HEIGHT: 150%; COLOR: #ffffff; FONT-SIZE: 24px
+}
+.input {
+	BORDER-BOTTOM: #b8b8b8 1px solid; BORDER-LEFT: #b8b8b8 1px solid; FONT-SIZE: 14px; BORDER-TOP: #b8b8b8 1px solid; BORDER-RIGHT: #b8b8b8 1px solid
+}
+INPUT {
+	BORDER-BOTTOM: #b8b8b8 1px solid; BORDER-LEFT: #b8b8b8 1px solid; FONT-SIZE: 14px; BORDER-TOP: #b8b8b8 1px solid; BORDER-RIGHT: #b8b8b8 1px solid
+}
+.border {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; COLOR: #666666; FONT-SIZE: 9pt; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid
+}
+.title1 {
+	LINE-HEIGHT: 210%; FONT-FAMILY: 宋体; FONT-SIZE: 14px
+}
+.title {
+	FONT-FAMILY: 幼圆; FONT-SIZE: 16px; FONT-WEIGHT: bolder
+}
+.border1 {
+	BORDER-BOTTOM: #daa545 1px solid; BORDER-LEFT: #daa545 1px solid; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #daa545 1px solid; BORDER-RIGHT: #daa545 1px solid
+}
+.border2 {
+	BORDER-BOTTOM: #636163 1px solid; BORDER-LEFT: #636163 1px solid; BACKGROUND-COLOR: #f4f4f4; BORDER-TOP: #636163 1px solid; BORDER-RIGHT: #636163 1px solid
+}
+.p:link {
+	MARGIN: 5px; PADDING-LEFT: 25px; WIDTH: 135px; FONT-FAMILY: 宋体,arial; BACKGROUND: url(images/tbg07.gif); HEIGHT: 21px; COLOR: #696b6a; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 5px
+}
+.p:visited {
+	MARGIN: 5px; PADDING-LEFT: 25px; WIDTH: 135px; FONT-FAMILY: 宋体,arial; BACKGROUND: url(images/tbg07.gif); HEIGHT: 21px; COLOR: #696b6a; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 5px
+}
+.p {
+	MARGIN: 5px; PADDING-LEFT: 25px; WIDTH: 135px; FONT-FAMILY: 宋体,arial; BACKGROUND: url(images/tbg07.gif); HEIGHT: 21px; COLOR: #696b6a; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 5px
+}
+.p:hover {
+	MARGIN: 5px; PADDING-LEFT: 25px; WIDTH: 135px; FONT-FAMILY: 宋体,arial; BACKGROUND: url(images/tbg08.gif); HEIGHT: 21px; COLOR: #324e80; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 5px
+}

@@ -1,0 +1,6 @@
+#ifndef COMPONETOPERATE_H
+#define COMPONETOPERATE_H
+
+
+
+#endif // COMPONETOPERATE_H

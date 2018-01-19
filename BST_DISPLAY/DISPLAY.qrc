@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/Background">
+        <file>rc/Background/Audio.png</file>
+    </qresource>
+    <qresource prefix="/SystemAudio">
+        <file>rc/SystemAudio/begin.wav</file>
+        <file>rc/SystemAudio/button.wav</file>
+        <file>rc/SystemAudio/callin.wav</file>
+        <file>rc/SystemAudio/callout.wav</file>
+        <file>rc/SystemAudio/close.wav</file>
+        <file>rc/SystemAudio/error.wav</file>
+        <file>rc/SystemAudio/info.wav</file>
+        <file>rc/SystemAudio/open.wav</file>
+        <file>rc/SystemAudio/plugin.wav</file>
+        <file>rc/SystemAudio/plugout.wav</file>
+        <file>rc/SystemAudio/qurey.wav</file>
+    </qresource>
+    <qresource prefix="/SetBar">
+        <file>rc/SetBar/switch-on.png</file>
+        <file>rc/SetBar/button-off.png</file>
+        <file>rc/SetBar/button-on.png</file>
+        <file>rc/SetBar/switch-off.png</file>
+        <file>rc/SetBar/switch-false.png</file>
+        <file>rc/SetBar/switch-true.png</file>
+    </qresource>
+    <qresource prefix="/Version">
+        <file>rc/Version/version.txt</file>
+    </qresource>
+</RCC>
